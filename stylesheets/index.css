@@ -1,0 +1,313 @@
+* {
+  word-wrap: break-word; }
+
+body {
+  min-width: 1200px;
+  margin: 0 auto;
+  font: 12px 'Microsoft Yahei',Tahoma,Simsun; }
+
+a {
+  color: #444; }
+
+header {
+  height: 28px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  z-index: 9; }
+  header .h_box_left {
+    display: inline-block; }
+    header .h_box_left p {
+      float: left;
+      padding: 0 5px;
+      line-height: 28px;
+      font-size: 12px; }
+      header .h_box_left p a:hover {
+        color: #248DCC; }
+      header .h_box_left p .h_icon1 {
+        display: inline-block;
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/epetbrand.png") left 0 top 8PX no-repeat;
+        height: 28px;
+        text-indent: 16px; }
+      header .h_box_left p .plase_send {
+        line-height: 28px;
+        margin-left: 5px; }
+      header .h_box_left p .epetbrand {
+        display: inline-block;
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg.png") -9px -425px no-repeat;
+        height: 28px;
+        text-indent: 19px; }
+      header .h_box_left p .epetbrand:hover {
+        color: #F60; }
+      header .h_box_left p .evaluate_num {
+        color: #F60; }
+  header .place {
+    float: left;
+    position: relative; }
+    header .place .place_show {
+      position: relative;
+      display: block; }
+      header .place .place_show .myplace {
+        font-size: 12px;
+        padding: 0 20px 0 5px;
+        line-height: 28px;
+        width: auto;
+        cursor: pointer;
+        color: #666; }
+      header .place .place_show .h_icon2 {
+        width: 15px;
+        height: 15px;
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/xqico.png") 0 -31px no-repeat;
+        position: absolute;
+        top: 9px;
+        left: 30px;
+        display: inline-block; }
+      header .place .place_show .placebox {
+        display: none; }
+
+.h_box {
+  width: 1200px;
+  margin: 0 auto; }
+
+.h_box_right {
+  padding-top: 1px;
+  float: right;
+  font-size: 12px; }
+  .h_box_right li {
+    display: inline;
+    color: #444;
+    float: left;
+    padding: 0 5px;
+    height: 26px;
+    position: relative;
+    line-height: 25px;
+    z-index: 10;
+    border: 1px solid #F5F5F5;
+    border-bottom: 0; }
+    .h_box_right li i {
+      background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg.png");
+      background-repeat: no-repeat; }
+    .h_box_right li i {
+      width: 13px;
+      height: 13px;
+      background-position: -312px -46px;
+      background-repeat: no-repeat;
+      margin-top: 6px;
+      margin-right: 5px;
+      float: left; }
+    .h_box_right li .car_icon {
+      background-position: -291px -46px;
+      width: 14px;
+      height: 14px;
+      margin-top: 6px;
+      margin-right: 5px;
+      float: left; }
+    .h_box_right li .number {
+      color: red; }
+    .h_box_right li .mypet {
+      position: relative;
+      padding-right: 14px;
+      cursor: pointer;
+      float: left;
+      display: block; }
+      .h_box_right li .mypet b {
+        display: block;
+        width: 0;
+        height: 0;
+        border: transparent solid 4px;
+        border-top: #717171 solid 4px;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        overflow: hidden; }
+    .h_box_right li .collect {
+      position: relative;
+      padding-right: 14px;
+      cursor: pointer;
+      display: block;
+      color: #444; }
+      .h_box_right li .collect i {
+        background-position: -353px -46px;
+        width: 15px;
+        margin-right: 4px; }
+      .h_box_right li .collect b {
+        display: block;
+        width: 0;
+        height: 0;
+        border: transparent solid 4px;
+        border-top: #717171 solid 4px;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        overflow: hidden; }
+    .h_box_right li .question {
+      color: red; }
+  .h_box_right .mobileApp i {
+    background-position: -334px -46px; }
+
+.head_box {
+  width: 1200px;
+  margin: 0 auto; }
+  .head_box img {
+    width: 1200px;
+    margin: 0 auto;
+    display: block; }
+  .head_box .top_search {
+    padding-top: 10px;
+    font-size: 12px;
+    height: 100px;
+    display: block; }
+    .head_box .top_search .logo {
+      float: left;
+      height: 94px;
+      width: 268px;
+      position: relative; }
+      .head_box .top_search .logo .dog_logo {
+        display: inline-block;
+        width: 268px;
+        height: 94px;
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/epet-logo.png") 0 -12px no-repeat;
+        margin-top: 7px; }
+    .head_box .top_search .search {
+      margin: 23px 0 0 33px;
+      float: left; }
+      .head_box .top_search .search .searchworld {
+        border: #459d36 solid 2px;
+        background: 0 0;
+        padding: 0 5px 0 15px;
+        width: 382px;
+        height: 30px;
+        outline: 0;
+        line-height: 30px;
+        font-size: 14px;
+        float: left; }
+      .head_box .top_search .search .searchbtn {
+        border: 0;
+        width: 73px;
+        height: 30px;
+        vertical-align: top;
+        cursor: pointer;
+        background-color: #459d36;
+        color: #FFF;
+        font-size: 14px; }
+    .head_box .top_search .keywords {
+      margin: 10px 0;
+      width: 498px;
+      height: 17px;
+      overflow: hidden; }
+      .head_box .top_search .keywords label {
+        float: left;
+        display: inline;
+        white-space: nowrap;
+        color: #999; }
+      .head_box .top_search .keywords a {
+        display: inline;
+        white-space: nowrap;
+        color: #999; }
+      .head_box .top_search .keywords span {
+        color: #999;
+        margin: 0 10px; }
+      .head_box .top_search .keywords .cred {
+        color: red; }
+    .head_box .top_search .go_buy {
+      margin: 23px 0 0;
+      width: 130px;
+      height: 39px;
+      text-align: center;
+      text-indent: 2em;
+      background: url("https://static.epetbar.com/static_web/pc/dist/images/background/shopping-cart.gif") no-repeat;
+      float: right; }
+      .head_box .top_search .go_buy .buy_car {
+        line-height: 39px;
+        color: #666; }
+        .head_box .top_search .go_buy .buy_car .buy_num {
+          display: inline-block;
+          vertical-align: middle;
+          margin-top: -4px;
+          color: #f40;
+          text-indent: 0;
+          margin-left: 2px; }
+  .head_box .top_nav {
+    padding-top: 10px;
+    height: 44px;
+    border-bottom: #357e34 solid 2px; }
+    .head_box .top_nav .nav_left {
+      position: relative;
+      z-index: 10;
+      float: left;
+      width: 288px; }
+      .head_box .top_nav .nav_left .nav_left_title {
+        height: 34px;
+        line-height: 32px;
+        color: #FFF;
+        font-size: 16px;
+        text-align: center; }
+        .head_box .top_nav .nav_left .nav_left_title span {
+          float: left;
+          width: 112px;
+          height: 32px;
+          text-align: center;
+          border: 1px solid #e1e1e1;
+          color: #666;
+          cursor: pointer; }
+          .head_box .top_nav .nav_left .nav_left_title span b {
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: -2px;
+            background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg2.png") no-repeat;
+            margin-left: 5px; }
+        .head_box .top_nav .nav_left .nav_left_title .left_title1 {
+          position: relative; }
+          .head_box .top_nav .nav_left .nav_left_title .left_title1 .cate1 {
+            width: 16px;
+            height: 13px;
+            background-position: -17px -1257px; }
+        .head_box .top_nav .nav_left .nav_left_title .left_title2 {
+          background-color: #46ab50;
+          border: 1px solid #46ab50;
+          color: #fff; }
+          .head_box .top_nav .nav_left .nav_left_title .left_title2 .cate2 {
+            background-position: 0 -1276px;
+            width: 13px;
+            height: 7px; }
+    .head_box .top_nav .nav_right {
+      overflow: hidden;
+      height: 34px; }
+      .head_box .top_nav .nav_right li {
+        float: left;
+        z-index: 10;
+        position: relative; }
+        .head_box .top_nav .nav_right li .right_nav {
+          float: left;
+          line-height: 34px;
+          font-size: 16px;
+          color: #000;
+          font-weight: 700;
+          padding: 0 20px;
+          text-decoration: none;
+          height: 34px; }
+          .head_box .top_nav .nav_right li .right_nav .logoimg {
+            width: 100px;
+            position: inherit;
+            margin-top: -2px; }
+          .head_box .top_nav .nav_right li .right_nav b {
+            display: inline-block;
+            width: 13px;
+            height: 17px;
+            background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg2.png") -35px -1280px;
+            vertical-align: middle;
+            margin-top: -2px;
+            margin-right: 6px;
+            color: #459d36;
+            -webkit-transition: -webkit-transform .2s ease-out;
+            -moz-transition: -moz-transform .2s ease-out;
+            -o-transition: -o-transform .2s ease-out;
+            -ms-transition: -ms-transform .2s ease-out; }
+          .head_box .top_nav .nav_right li .right_nav b:hover {
+            -webkit-transform: rotateZ(360deg);
+            -moz-transform: rotateZ(360deg);
+            -o-transform: rotateZ(360deg);
+            -ms-transform: rotateZ(360deg);
+            transform: rotateZ(360deg); }
+        .head_box .top_nav .nav_right li .right_nav:hover {
+          color: #459d36; }
