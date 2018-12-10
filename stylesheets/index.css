@@ -939,6 +939,9 @@ header {
                   color: #b8b8b8; }
               .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .ft12 {
                 font-size: 12px; }
+            .renew .day-surpice .surprise-con .anli .time-proconli .time-procon .large {
+              font-size: 16px;
+              color: #666; }
         .renew .day-surpice .surprise-con .anli .overflow {
           overflow: hidden; }
       .renew .day-surpice .surprise-con .rela, .renew .day-surpice .surprise-con .rel {
