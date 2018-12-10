@@ -47,6 +47,16 @@ header {
     header .place .place_show {
       position: relative;
       display: block; }
+      header .place .place_show:hover .placebox {
+        display: block; }
+      header .place .place_show:hover .h_icon2 {
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/xqico.png") 0 -46px no-repeat;
+        display: block;
+        top: 11px;
+        right: 5px;
+        width: 15px;
+        height: 15px;
+        position: absolute; }
       header .place .place_show .myplace {
         font-size: 12px;
         padding: 0 20px 0 5px;
@@ -63,7 +73,73 @@ header {
         left: 30px;
         display: inline-block; }
       header .place .place_show .placebox {
-        display: none; }
+        display: none;
+        margin-top: -2px;
+        position: absolute;
+        font-size: 14px;
+        z-index: 99;
+        top: 30px;
+        left: 0;
+        background: transparent;
+        line-height: 15px;
+        min-height: 270px; }
+        header .place .place_show .placebox .placebox_list {
+          width: 400px;
+          display: inline-block;
+          border: 1px solid #ddd;
+          padding: 5px 5px 15px;
+          position: relative;
+          background: #fff; }
+          header .place .place_show .placebox .placebox_list .place_title {
+            width: 100%;
+            height: 25px;
+            display: inline-block;
+            border-bottom: 1px solid #ddd;
+            color: black; }
+            header .place .place_show .placebox .placebox_list .place_title li {
+              border-right: 1px solid #ddd;
+              border-left: 1px solid #ddd;
+              border-top: 1px solid #ddd;
+              display: inline-block;
+              line-height: 24px;
+              font-size: 12px;
+              color: #888;
+              width: 70px;
+              text-align: center;
+              cursor: pointer;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              background: #f6f6f6; }
+            header .place .place_show .placebox .placebox_list .place_title .active {
+              background: #fff; }
+          header .place .place_show .placebox .placebox_list .palce_content {
+            margin-top: 5px;
+            color: #666; }
+            header .place .place_show .placebox .placebox_list .palce_content .placesites {
+              padding: 10px 10px 5px 10px; }
+              header .place .place_show .placebox .placebox_list .palce_content .placesites span {
+                color: #999;
+                border-right: 1px dotted #e8e8e8;
+                padding-right: 3px; }
+              header .place .place_show .placebox .placebox_list .palce_content .placesites a {
+                padding: 2px 10px;
+                color: #666; }
+              header .place .place_show .placebox .placebox_list .palce_content .placesites .placesite1 {
+                background: #fb6003;
+                color: #fff; }
+              header .place .place_show .placebox .placebox_list .palce_content .placesites a:hover {
+                background: #fb6003;
+                color: #fff; }
+            header .place .place_show .placebox .placebox_list .palce_content .hide {
+              display: none; }
+              header .place .place_show .placebox .placebox_list .palce_content .hide a {
+                display: inline-block;
+                margin-top: 5px;
+                padding: 2px 10px;
+                color: #666; }
+              header .place .place_show .placebox .placebox_list .palce_content .hide a:hover {
+                color: #fff; }
 
 .h_box {
   width: 1200px;
@@ -74,7 +150,6 @@ header {
   float: right;
   font-size: 12px; }
   .h_box_right li {
-    display: inline;
     color: #444;
     float: left;
     padding: 0 5px;
@@ -84,6 +159,8 @@ header {
     z-index: 10;
     border: 1px solid #F5F5F5;
     border-bottom: 0; }
+    .h_box_right li:hover .login, .h_box_right li:hover .register, .h_box_right li:hover .shopingcar, .h_box_right li:hover .question, .h_box_right li:hover .mobile {
+      color: #248DCC; }
     .h_box_right li i {
       background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg.png");
       background-repeat: no-repeat; }
@@ -120,6 +197,23 @@ header {
         right: 0;
         top: 10px;
         overflow: hidden; }
+    .h_box_right li .mypetbox {
+      border: 1px solid #ddd;
+      border-top: 0;
+      position: absolute;
+      left: -1px;
+      top: 26px;
+      float: left;
+      padding: 5px 10px;
+      display: none;
+      background-color: #FFF; }
+      .h_box_right li .mypetbox a {
+        line-height: 14px;
+        padding: 0 10px;
+        width: 80px;
+        margin: 5px 0;
+        background-position: 0 -260px;
+        display: block; }
     .h_box_right li .collect {
       position: relative;
       padding-right: 14px;
@@ -140,10 +234,80 @@ header {
         right: 0;
         top: 10px;
         overflow: hidden; }
+    .h_box_right li .collectbox {
+      border: 1px solid #ddd;
+      border-top: 0;
+      position: absolute;
+      left: -1px;
+      top: 26px;
+      float: left;
+      padding: 5px 10px;
+      display: none;
+      background-color: #FFF; }
+      .h_box_right li .collectbox a {
+        line-height: 14px;
+        padding: 0 10px;
+        width: 70px;
+        margin: 5px 0;
+        background-position: 0 -260px;
+        display: block; }
     .h_box_right li .question {
       color: red; }
+  .h_box_right .petknow:hover .mypetbox {
+    display: block; }
+  .h_box_right .petknow:hover b {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all .15s;
+    -o-transition: all .15s;
+    -ms-transition: all .15s;
+    -moz-transition: all .15s;
+    transition: all .15s;
+    -webkit-transform-origin: 50% 25%;
+    -o-transform-origin: 50% 25%;
+    -ms-transform-origin: 50% 25%;
+    -moz-transform-origin: 50% 255%;
+    transform-origin: 50% 25%; }
+  .h_box_right .petknow .myepet:hover {
+    color: #248DCC; }
+  .h_box_right .petknow .mypet_tit1:hover, .h_box_right .petknow .mypet_tit2:hover, .h_box_right .petknow .mypet_tit3:hover, .h_box_right .petknow .mypet_tit4:hover, .h_box_right .petknow .mypet_tit5:hover {
+    color: #248DCC; }
+  .h_box_right .collcetion:hover .collectbox {
+    display: block; }
+  .h_box_right .collcetion:hover b {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all .15s;
+    -o-transition: all .15s;
+    -ms-transition: all .15s;
+    -moz-transition: all .15s;
+    transition: all .15s;
+    -webkit-transform-origin: 50% 25%;
+    -o-transform-origin: 50% 25%;
+    -ms-transform-origin: 50% 25%;
+    -moz-transform-origin: 50% 255%;
+    transform-origin: 50% 25%; }
+  .h_box_right .collcetion .collect_tit:hover {
+    color: #248DCC; }
+  .h_box_right .collcetion:hover {
+    display: block; }
   .h_box_right .mobileApp i {
     background-position: -334px -46px; }
+  .h_box_right .mobileApp img {
+    display: none;
+    width: 80px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    margin-top: -2px; }
+  .h_box_right .mobileApp:hover img {
+    display: block; }
 
 .head_box {
   width: 1200px;
@@ -197,7 +361,6 @@ header {
       overflow: hidden; }
       .head_box .top_search .keywords label {
         float: left;
-        display: inline;
         white-space: nowrap;
         color: #999; }
       .head_box .top_search .keywords a {
@@ -231,51 +394,244 @@ header {
     padding-top: 10px;
     height: 44px;
     border-bottom: #357e34 solid 2px; }
-    .head_box .top_nav .nav_left {
-      position: relative;
-      z-index: 10;
-      float: left;
-      width: 288px; }
-      .head_box .top_nav .nav_left .nav_left_title {
-        height: 34px;
-        line-height: 32px;
-        color: #FFF;
-        font-size: 16px;
-        text-align: center; }
-        .head_box .top_nav .nav_left .nav_left_title span {
-          float: left;
-          width: 112px;
-          height: 32px;
-          text-align: center;
-          border: 1px solid #e1e1e1;
-          color: #666;
-          cursor: pointer; }
-          .head_box .top_nav .nav_left .nav_left_title span b {
+    .head_box .top_nav .dognav_list {
+      position: relative; }
+      .head_box .top_nav .dognav_list .nav_left {
+        position: relative;
+        float: left;
+        width: 288px; }
+        .head_box .top_nav .dognav_list .nav_left .nav_left_title {
+          height: 34px;
+          line-height: 32px;
+          color: #FFF;
+          font-size: 16px;
+          text-align: center; }
+          .head_box .top_nav .dognav_list .nav_left .nav_left_title span {
+            float: left;
+            width: 112px;
+            height: 32px;
+            text-align: center;
+            border: 1px solid #e1e1e1;
+            color: #666;
+            cursor: pointer; }
+            .head_box .top_nav .dognav_list .nav_left .nav_left_title span b {
+              display: inline-block;
+              vertical-align: middle;
+              margin-top: -2px;
+              background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg2.png") no-repeat;
+              margin-left: 5px; }
+          .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title1 {
+            position: relative; }
+            .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title1:hover .cate1 {
+              -webkit-transform: rotate(180deg);
+              -ms-transform: rotate(180deg);
+              -moz-transform: rotate(180deg);
+              -o-transform: rotate(180deg);
+              transform: rotate(180deg);
+              background-position: 0 -1257px; }
+            .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title1 .cate1 {
+              width: 16px;
+              height: 13px;
+              background-position: -17px -1257px; }
+          .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title2 {
+            color: #888; }
+            .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title2:hover .cate2 {
+              -webkit-transform: rotate(180deg);
+              -ms-transform: rotate(180deg);
+              -moz-transform: rotate(180deg);
+              -o-transform: rotate(180deg);
+              transform: rotate(180deg);
+              color: #fff;
+              background-position: 0 -1276px; }
+            .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title2 .cate2 {
+              background-position: -17px -1276px;
+              width: 13px;
+              height: 7px; }
+          .head_box .top_nav .dognav_list .nav_left .nav_left_title .changecolor {
+            background-color: #22990d;
+            border: 1px solid #46ab50; }
+      .head_box .top_nav .dognav_list .dog_nav {
+        width: 228px;
+        position: absolute;
+        top: 34px;
+        left: 0;
+        border-top: 2px solid #FFF; }
+        .head_box .top_nav .dognav_list .dog_nav .doglist {
+          height: 358px;
+          position: relative;
+          display: none; }
+          .head_box .top_nav .dognav_list .dog_nav .doglist ul {
+            overflow: hidden;
+            background: #fff; }
+            .head_box .top_nav .dognav_list .dog_nav .doglist ul li {
+              height: 51px;
+              display: block;
+              width: 100%;
+              float: left;
+              background: url("https://static.epetbar.com/static_web/pc/dist/images/background/menuLine1.png") 50% bottom no-repeat; }
+              .head_box .top_nav .dognav_list .dog_nav .doglist ul li h3 {
+                background-position: right -1206px;
+                background-repeat: no-repeat;
+                padding-left: 16px;
+                font-weight: 400;
+                height: 50px;
+                line-height: 50px;
+                background-color: #fcfcfc;
+                background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg2.png?v=0128"); }
+                .head_box .top_nav .dognav_list .dog_nav .doglist ul li h3 a {
+                  font-size: 14px;
+                  display: inline-block;
+                  width: 88px;
+                  overflow: hidden;
+                  height: 50px; }
+                  .head_box .top_nav .dognav_list .dog_nav .doglist ul li h3 a i {
+                    display: inline-block;
+                    color: #999;
+                    width: 40px;
+                    font-size: 12px;
+                    margin-left: 4px; }
+          .head_box .top_nav .dognav_list .dog_nav .doglist .pet-active {
+            height: 52px;
+            line-height: 52px;
+            background: #fff;
+            color: #22990d;
+            text-indent: 20px;
+            font-size: 14px; }
+            .head_box .top_nav .dognav_list .dog_nav .doglist .pet-active img {
+              vertical-align: middle;
+              margin-top: -3px;
+              margin-right: 5px;
+              width: 17px;
+              height: 22px;
+              display: inline-block; }
+            .head_box .top_nav .dognav_list .dog_nav .doglist .pet-active a {
+              height: 24px;
+              padding: 0 9px;
+              border-radius: 8px;
+              background: #fb6003;
+              color: #fff;
+              margin-left: 10px; }
+        .head_box .top_nav .dognav_list .dog_nav .pet-cate {
+          height: 358px;
+          overflow: hidden; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate dd {
+            height: 119px;
+            text-align: center;
+            background: #fff; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate dd a span {
+              display: inline-block;
+              width: 60px;
+              height: 60px;
+              margin-top: 27px;
+              background: url("https://static.epetbar.com/static_web/pc/dist/images/background/new_petcate.png"); }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate dd > span {
             display: inline-block;
-            vertical-align: middle;
-            margin-top: -2px;
-            background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg2.png") no-repeat;
-            margin-left: 5px; }
-        .head_box .top_nav .nav_left .nav_left_title .left_title1 {
-          position: relative; }
-          .head_box .top_nav .nav_left .nav_left_title .left_title1 .cate1 {
-            width: 16px;
-            height: 13px;
-            background-position: -17px -1257px; }
-        .head_box .top_nav .nav_left .nav_left_title .left_title2 {
-          background-color: #46ab50;
-          border: 1px solid #46ab50;
-          color: #fff; }
-          .head_box .top_nav .nav_left .nav_left_title .left_title2 .cate2 {
-            background-position: 0 -1276px;
-            width: 13px;
-            height: 7px; }
+            width: 110px;
+            height: 60px;
+            margin-left: 8px;
+            margin-top: 27px;
+            vertical-align: top; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate dd > span p {
+              line-height: 24px;
+              padding-bottom: 4px;
+              color: #333;
+              font-size: 12px; }
+              .head_box .top_nav .dognav_list .dog_nav .pet-cate dd > span p .cstress {
+                color: #f03e3e; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate dd > span .c999 {
+              color: #999;
+              font-size: 12px; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .dognow {
+            background-color: #f5f5f5;
+            border-bottom: 0; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .dognow span {
+              background-position: 0 -180px; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-mm {
+            border-bottom: 1px dashed #ccc; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-mm span {
+              background-position: 0 -60px; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-mm:hover .cat-shatype img {
+              left: -25px; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-mm .p-link {
+              border: 1px solid #e74085;
+              color: #e74085; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-mm .cat-shatype {
+              background: 0 0;
+              width: 27px;
+              position: absolute;
+              top: 119px;
+              left: 0;
+              z-index: -1; }
+              .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-mm .cat-shatype img {
+                width: 27px;
+                height: 119px;
+                display: block;
+                transition: left .3s;
+                -moz-animation: left .3s;
+                -webkit-transition: left .3s;
+                -o-transition: left .3s;
+                position: absolute;
+                top: 0;
+                left: 0; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-fish span {
+            background-position: 0 -120px; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-fish span .p-link {
+              border: 1px solid #059ee0;
+              color: #059ee0; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-fish .fish-fishtanktype {
+            background: 0 0;
+            width: 27px;
+            position: absolute;
+            top: 238px;
+            left: 0;
+            z-index: -1; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-fish .fish-fishtanktype img {
+              width: 27px;
+              height: 119px;
+              display: block;
+              transition: left .3s;
+              -moz-animation: left .3s;
+              -webkit-transition: left .3s;
+              -o-transition: left .3s;
+              position: absolute;
+              top: 0;
+              left: 0; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-fish:hover .fish-fishtanktype img {
+            left: -25px; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-ph:hover .dogcloth img {
+            left: -25px; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-link {
+            border: 1px solid #aeaeae;
+            color: #aeaeae;
+            display: inline-block;
+            font-size: 12px;
+            width: 108px;
+            height: 28px;
+            line-height: 30px;
+            text-align: center; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .dogcloth {
+            background: 0 0;
+            position: absolute;
+            width: 27px;
+            top: 0;
+            left: 0;
+            z-index: -1; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .dogcloth img {
+              width: 27px;
+              height: 119px;
+              display: block;
+              transition: left .3s;
+              -moz-animation: left .3s;
+              -webkit-transition: left .3s;
+              -o-transition: left .3s;
+              position: absolute;
+              top: 0;
+              left: 0; }
     .head_box .top_nav .nav_right {
       overflow: hidden;
       height: 34px; }
       .head_box .top_nav .nav_right li {
         float: left;
-        z-index: 10;
         position: relative; }
         .head_box .top_nav .nav_right li .right_nav {
           float: left;
@@ -311,3 +667,327 @@ header {
             transform: rotateZ(360deg); }
         .head_box .top_nav .nav_right li .right_nav:hover {
           color: #459d36; }
+
+.adepet {
+  overflow: hidden;
+  position: relative;
+  z-index: -4; }
+  .adepet .indexlbox {
+    background: #f5f5f5; }
+    .adepet .indexlbox .swiper-container {
+      height: 360px;
+      overflow: hidden;
+      position: relative; }
+      .adepet .indexlbox .swiper-container .swiper-slide {
+        position: absolute;
+        width: 100%;
+        height: 360px; }
+        .adepet .indexlbox .swiper-container .swiper-slide .swiper-box {
+          padding-left: 36px;
+          width: 780px;
+          margin: 0 auto; }
+          .adepet .indexlbox .swiper-container .swiper-slide .swiper-box img {
+            width: 770px;
+            height: 360px;
+            display: block; }
+      .adepet .indexlbox .swiper-container .slide-show {
+        z-index: 2; }
+      .adepet .indexlbox .swiper-container .slide-willhide {
+        z-index: 1; }
+      .adepet .indexlbox .swiper-container .swiper-pagination {
+        position: absolute;
+        top: 325px;
+        left: 10px;
+        text-align: center;
+        width: 100%;
+        z-index: 10; }
+        .adepet .indexlbox .swiper-container .swiper-pagination span {
+          width: 21px;
+          height: 21px;
+          font-size: 12px;
+          margin-right: 5px;
+          text-align: center;
+          display: inline-block;
+          line-height: 21px;
+          background-color: #999;
+          border-radius: 50%;
+          color: #FFF; }
+  .adepet .main_rBox {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 0; }
+    .adepet .main_rBox .w-max {
+      width: 1200px;
+      position: absolute;
+      top: 0;
+      left: 1043px; }
+      .adepet .main_rBox .w-max .main_r {
+        width: 200px;
+        height: 360px;
+        background: #fff;
+        position: relative;
+        z-index: 13;
+        margin-right: 2px;
+        overflow: hidden; }
+        .adepet .main_rBox .w-max .main_r .imgBox {
+          overflow: hidden;
+          display: block;
+          border-bottom: 1px dotted #ddd; }
+          .adepet .main_rBox .w-max .main_r .imgBox:hover {
+            margin-left: -17px; }
+          .adepet .main_rBox .w-max .main_r .imgBox img {
+            -webkit-transition: all .4s ease-out;
+            -moz-transition: all .4s ease-out;
+            -ms-transition: all .4s ease-out;
+            -o-transition: all .4s ease-out;
+            transition: all .4s ease-out; }
+
+.renew {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .renew .day-surpice {
+    margin-top: 30px; }
+    .renew .day-surpice .count-down-new {
+      width: 328px;
+      height: 460px;
+      background: url("https://static.epetbar.com/static_web/pc/dist/images/background/everydayBgNew2.png") no-repeat;
+      background-size: 100% 100%;
+      float: left;
+      position: relative; }
+      .renew .day-surpice .count-down-new .jXZImg {
+        height: 23px;
+        width: 63px;
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/jxz.png") center no-repeat;
+        background-size: 100%;
+        float: right; }
+      .renew .day-surpice .count-down-new .newTime {
+        margin: -10px 0 0 109px;
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/clock.png") left center no-repeat;
+        background-size: 24px 26px;
+        padding-left: 26px; }
+        .renew .day-surpice .count-down-new .newTime span {
+          font-weight: 700;
+          font-size: 30px;
+          color: #fff; }
+      .renew .day-surpice .count-down-new .down-app-tip {
+        width: 154px;
+        height: 41px;
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/downappbg.png") no-repeat;
+        left: 42px;
+        top: 368px;
+        line-height: 35px;
+        z-index: 10;
+        font-size: 12px;
+        color: #fff;
+        position: absolute;
+        text-align: center; }
+      .renew .day-surpice .count-down-new .new-comment {
+        width: 280px;
+        left: 24px;
+        bottom: -203px;
+        height: 32px;
+        overflow: hidden;
+        border-radius: 32px;
+        background: #ff7188;
+        position: absolute; }
+        .renew .day-surpice .count-down-new .new-comment .comment_container {
+          position: absolute;
+          top: 0; }
+          .renew .day-surpice .count-down-new .new-comment .comment_container .roller {
+            width: 280px;
+            height: 32px;
+            color: #fff;
+            font-size: 12px;
+            line-height: 32px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis; }
+            .renew .day-surpice .count-down-new .new-comment .comment_container .roller .headImg {
+              float: left;
+              margin-top: 3.5px;
+              width: 25px;
+              height: 25px;
+              overflow: hidden;
+              border-radius: 50%;
+              margin-right: 5px; }
+              .renew .day-surpice .count-down-new .new-comment .comment_container .roller .headImg img {
+                width: 100%;
+                vertical-align: top;
+                height: 100%; }
+      .renew .day-surpice .count-down-new .fQYJS {
+        padding-top: 186px;
+        font-weight: 700;
+        font-size: 30px;
+        color: #fff;
+        text-align: center; }
+      .renew .day-surpice .count-down-new .dib {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1; }
+    .renew .day-surpice .surprise-con {
+      margin-bottom: 20px;
+      width: 871px;
+      height: 458px;
+      border-left: 0;
+      border: 1px solid #e7e7e7;
+      float: right; }
+      .renew .day-surpice .surprise-con .anli {
+        margin-left: 15px; }
+        .renew .day-surpice .surprise-con .anli .time-proconli {
+          height: 364px; }
+          .renew .day-surpice .surprise-con .anli .time-proconli .time-procon {
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: 0; }
+            .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li {
+              width: 211px;
+              float: left; }
+              .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .cut1 {
+                font-weight: 500;
+                color: #fff;
+                font-size: 14px;
+                float: left;
+                margin-top: 5px;
+                margin-left: 12px;
+                box-sizing: border-box;
+                padding-top: 29px;
+                text-align: center;
+                height: 55px;
+                width: 55px;
+                background: url("https://static.epetbar.com/static_web/pc/dist/images/background/cut1.png") center no-repeat;
+                background-size: 100%; }
+              .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .fQLS {
+                font-weight: 500;
+                color: #fff;
+                font-size: 14px;
+                float: left;
+                margin-top: 5px;
+                margin-left: 12px;
+                box-sizing: border-box;
+                padding-top: 29px;
+                text-align: center;
+                height: 55px;
+                width: 55px;
+                background: url("https://static.epetbar.com/static_web/pc/dist/images/background/fqls.png") center no-repeat;
+                background-size: 100%; }
+              .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m {
+                margin: 18px 20px 20px; }
+                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .novip {
+                  height: 29px; }
+                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mt, .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mtop10 {
+                  margin-top: 10px; }
+                  .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mt .rush-buy, .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mtop10 .rush-buy {
+                    color: #fff;
+                    background: #cdcdcd;
+                    width: 120px;
+                    height: 30px;
+                    line-height: 30px;
+                    border-radius: 30px;
+                    cursor: pointer;
+                    display: inline-block; }
+                  .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mt .jijiang-buy, .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mtop10 .jijiang-buy {
+                    background: #4ace83; }
+                  .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mt .ft14, .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mtop10 .ft14 {
+                    font-size: 14px; }
+                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .ftc {
+                  text-align: center; }
+                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .surprise-img {
+                  width: 155px;
+                  height: 154px; }
+                  .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .surprise-img img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    -webkit-transition: all .5s ease;
+                    transition: all .5s ease;
+                    border: 1px solid #fff; }
+                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .sale-label-box {
+                  height: 24px;
+                  padding-top: 10px; }
+                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .goodsDes {
+                  height: 30px;
+                  margin-top: 28px;
+                  font-size: 12px;
+                  line-height: 1.2;
+                  overflow: hidden;
+                  text-align: left;
+                  text-overflow: ellipsis;
+                  display: -webkit-box;
+                  -webkit-box-orient: vertical;
+                  -webkit-line-clamp: 2; }
+              .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .cdd {
+                color: #dd2727; }
+              .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .mt5 {
+                margin-top: 5px; }
+                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .mt5 .ft20 {
+                  font-size: 20px; }
+                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .mt5 .ml5 {
+                  margin-left: 5px; }
+                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .mt5 .c999 {
+                  color: #999; }
+                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .mt5 .through {
+                  text-decoration: line-through; }
+                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .mt5 .onlyhave {
+                  position: absolute;
+                  top: 50%;
+                  margin-top: -6px;
+                  right: 0;
+                  color: #b8b8b8; }
+              .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .ft12 {
+                font-size: 12px; }
+        .renew .day-surpice .surprise-con .anli .overflow {
+          overflow: hidden; }
+      .renew .day-surpice .surprise-con .rela, .renew .day-surpice .surprise-con .rel {
+        position: relative; }
+        .renew .day-surpice .surprise-con .rela .anlimenu, .renew .day-surpice .surprise-con .rel .anlimenu {
+          height: 66px;
+          border-bottom: 1px dashed #e7e7e7;
+          margin: 0 20px; }
+          .renew .day-surpice .surprise-con .rela .anlimenu .time-menu, .renew .day-surpice .surprise-con .rel .anlimenu .time-menu {
+            height: 66px;
+            margin: 0 10px;
+            position: relative;
+            overflow: hidden; }
+            .renew .day-surpice .surprise-con .rela .anlimenu .time-menu .menubox, .renew .day-surpice .surprise-con .rel .anlimenu .time-menu .menubox {
+              overflow: hidden;
+              position: absolute;
+              top: 0;
+              left: 0;
+              margin-left: 25px; }
+              .renew .day-surpice .surprise-con .rela .anlimenu .time-menu .menubox li, .renew .day-surpice .surprise-con .rel .anlimenu .time-menu .menubox li {
+                width: 119px;
+                height: 45px;
+                color: #000;
+                padding: 18px 0 3px;
+                cursor: pointer;
+                float: left; }
+                .renew .day-surpice .surprise-con .rela .anlimenu .time-menu .menubox li .ftc, .renew .day-surpice .surprise-con .rel .anlimenu .time-menu .menubox li .ftc {
+                  display: inline-block;
+                  position: relative;
+                  text-align: center;
+                  font-size: 12px; }
+        .renew .day-surpice .surprise-con .rela .timeleft, .renew .day-surpice .surprise-con .rel .timeleft {
+          width: 20px;
+          height: 30px;
+          position: absolute;
+          top: 22px;
+          left: 20px;
+          z-index: 550;
+          display: inline-block;
+          background-position: -76px -16px; }
+        .renew .day-surpice .surprise-con .rela .index-ico, .renew .day-surpice .surprise-con .rel .index-ico {
+          background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/index-ico.png");
+          background-repeat: no-repeat; }
+        .renew .day-surpice .surprise-con .rela .timeright, .renew .day-surpice .surprise-con .rel .timeright {
+          width: 20px;
+          height: 30px;
+          background-position: -57px -16px;
+          position: absolute;
+          top: 22px;
+          right: 20px;
+          z-index: 30;
+          display: inline-block; }
