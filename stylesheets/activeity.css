@@ -1,0 +1,712 @@
+* {
+  word-wrap: break-word; }
+
+body {
+  min-width: 1200px;
+  margin: 0 auto;
+  font: 12px 'Microsoft Yahei',Tahoma,Simsun; }
+
+a {
+  color: #444; }
+
+header {
+  height: 28px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  z-index: 9; }
+  header .h_box_left {
+    display: inline-block; }
+    header .h_box_left p {
+      float: left;
+      padding: 0 5px;
+      line-height: 28px;
+      font-size: 12px; }
+      header .h_box_left p a:hover {
+        color: #248DCC; }
+      header .h_box_left p .h_icon1 {
+        display: inline-block;
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/epetbrand.png") left 0 top 8PX no-repeat;
+        height: 28px;
+        text-indent: 16px; }
+      header .h_box_left p .plase_send {
+        line-height: 28px;
+        margin-left: 5px; }
+      header .h_box_left p .epetbrand {
+        display: inline-block;
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg.png") -9px -425px no-repeat;
+        height: 28px;
+        text-indent: 19px; }
+      header .h_box_left p .epetbrand:hover {
+        color: #F60; }
+      header .h_box_left p .evaluate_num {
+        color: #F60; }
+  header .place {
+    float: left;
+    position: relative; }
+    header .place .place_show {
+      position: relative;
+      display: block; }
+      header .place .place_show:hover .placebox {
+        display: block; }
+      header .place .place_show:hover .h_icon2 {
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/xqico.png") 0 -46px no-repeat;
+        display: block;
+        top: 11px;
+        right: 5px;
+        width: 15px;
+        height: 15px;
+        position: absolute; }
+      header .place .place_show .myplace {
+        font-size: 12px;
+        padding: 0 20px 0 5px;
+        line-height: 28px;
+        width: auto;
+        cursor: pointer;
+        color: #666; }
+      header .place .place_show .h_icon2 {
+        width: 15px;
+        height: 15px;
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/xqico.png") 0 -31px no-repeat;
+        position: absolute;
+        top: 9px;
+        left: 30px;
+        display: inline-block; }
+      header .place .place_show .placebox {
+        display: none;
+        margin-top: -2px;
+        position: absolute;
+        font-size: 14px;
+        z-index: 99;
+        top: 30px;
+        left: 0;
+        background: transparent;
+        line-height: 15px;
+        min-height: 270px; }
+        header .place .place_show .placebox .placebox_list {
+          width: 400px;
+          display: inline-block;
+          border: 1px solid #ddd;
+          padding: 5px 5px 15px;
+          position: relative;
+          background: #fff; }
+          header .place .place_show .placebox .placebox_list .place_title {
+            width: 100%;
+            height: 25px;
+            display: inline-block;
+            border-bottom: 1px solid #ddd;
+            color: black; }
+            header .place .place_show .placebox .placebox_list .place_title li {
+              border-right: 1px solid #ddd;
+              border-left: 1px solid #ddd;
+              border-top: 1px solid #ddd;
+              display: inline-block;
+              line-height: 24px;
+              font-size: 12px;
+              color: #888;
+              width: 70px;
+              text-align: center;
+              cursor: pointer;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              background: #f6f6f6; }
+            header .place .place_show .placebox .placebox_list .place_title .active {
+              background: #fff; }
+          header .place .place_show .placebox .placebox_list .palce_content {
+            margin-top: 5px;
+            color: #666; }
+            header .place .place_show .placebox .placebox_list .palce_content .placesites {
+              padding: 10px 10px 5px 10px; }
+              header .place .place_show .placebox .placebox_list .palce_content .placesites span {
+                color: #999;
+                border-right: 1px dotted #e8e8e8;
+                padding-right: 3px; }
+              header .place .place_show .placebox .placebox_list .palce_content .placesites a {
+                padding: 2px 10px;
+                color: #666; }
+              header .place .place_show .placebox .placebox_list .palce_content .placesites .placesite1 {
+                background: #fb6003;
+                color: #fff; }
+              header .place .place_show .placebox .placebox_list .palce_content .placesites a:hover {
+                background: #fb6003;
+                color: #fff; }
+            header .place .place_show .placebox .placebox_list .palce_content .hide {
+              display: none; }
+              header .place .place_show .placebox .placebox_list .palce_content .hide a {
+                display: inline-block;
+                margin-top: 5px;
+                padding: 2px 10px;
+                color: #666; }
+              header .place .place_show .placebox .placebox_list .palce_content .hide a:hover {
+                color: #fff; }
+
+.h_box {
+  width: 1200px;
+  margin: 0 auto; }
+
+.h_box_right {
+  padding-top: 1px;
+  float: right;
+  font-size: 12px; }
+  .h_box_right li {
+    color: #444;
+    float: left;
+    padding: 0 5px;
+    height: 26px;
+    position: relative;
+    line-height: 25px;
+    z-index: 10;
+    border: 1px solid #F5F5F5;
+    border-bottom: 0; }
+    .h_box_right li:hover .login, .h_box_right li:hover .register, .h_box_right li:hover .shopingcar, .h_box_right li:hover .question, .h_box_right li:hover .mobile {
+      color: #248DCC; }
+    .h_box_right li i {
+      background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg.png");
+      background-repeat: no-repeat; }
+    .h_box_right li i {
+      width: 13px;
+      height: 13px;
+      background-position: -312px -46px;
+      background-repeat: no-repeat;
+      margin-top: 6px;
+      margin-right: 5px;
+      float: left; }
+    .h_box_right li .car_icon {
+      background-position: -291px -46px;
+      width: 14px;
+      height: 14px;
+      margin-top: 6px;
+      margin-right: 5px;
+      float: left; }
+    .h_box_right li .number {
+      color: red; }
+    .h_box_right li .mypet {
+      position: relative;
+      padding-right: 14px;
+      cursor: pointer;
+      float: left;
+      display: block; }
+      .h_box_right li .mypet b {
+        display: block;
+        width: 0;
+        height: 0;
+        border: transparent solid 4px;
+        border-top: #717171 solid 4px;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        overflow: hidden; }
+    .h_box_right li .mypetbox {
+      border: 1px solid #ddd;
+      border-top: 0;
+      position: absolute;
+      left: -1px;
+      top: 26px;
+      float: left;
+      padding: 5px 10px;
+      display: none;
+      background-color: #FFF; }
+      .h_box_right li .mypetbox a {
+        line-height: 14px;
+        padding: 0 10px;
+        width: 80px;
+        margin: 5px 0;
+        background-position: 0 -260px;
+        display: block; }
+    .h_box_right li .collect {
+      position: relative;
+      padding-right: 14px;
+      cursor: pointer;
+      display: block;
+      color: #444; }
+      .h_box_right li .collect i {
+        background-position: -353px -46px;
+        width: 15px;
+        margin-right: 4px; }
+      .h_box_right li .collect b {
+        display: block;
+        width: 0;
+        height: 0;
+        border: transparent solid 4px;
+        border-top: #717171 solid 4px;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        overflow: hidden; }
+    .h_box_right li .collectbox {
+      border: 1px solid #ddd;
+      border-top: 0;
+      position: absolute;
+      left: -1px;
+      top: 26px;
+      float: left;
+      padding: 5px 10px;
+      display: none;
+      background-color: #FFF; }
+      .h_box_right li .collectbox a {
+        line-height: 14px;
+        padding: 0 10px;
+        width: 70px;
+        margin: 5px 0;
+        background-position: 0 -260px;
+        display: block; }
+    .h_box_right li .question {
+      color: red; }
+  .h_box_right .petknow:hover .mypetbox {
+    display: block; }
+  .h_box_right .petknow:hover b {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all .15s;
+    -o-transition: all .15s;
+    -ms-transition: all .15s;
+    -moz-transition: all .15s;
+    transition: all .15s;
+    -webkit-transform-origin: 50% 25%;
+    -o-transform-origin: 50% 25%;
+    -ms-transform-origin: 50% 25%;
+    -moz-transform-origin: 50% 255%;
+    transform-origin: 50% 25%; }
+  .h_box_right .petknow .myepet:hover {
+    color: #248DCC; }
+  .h_box_right .petknow .mypet_tit1:hover, .h_box_right .petknow .mypet_tit2:hover, .h_box_right .petknow .mypet_tit3:hover, .h_box_right .petknow .mypet_tit4:hover, .h_box_right .petknow .mypet_tit5:hover {
+    color: #248DCC; }
+  .h_box_right .collcetion:hover .collectbox {
+    display: block; }
+  .h_box_right .collcetion:hover b {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all .15s;
+    -o-transition: all .15s;
+    -ms-transition: all .15s;
+    -moz-transition: all .15s;
+    transition: all .15s;
+    -webkit-transform-origin: 50% 25%;
+    -o-transform-origin: 50% 25%;
+    -ms-transform-origin: 50% 25%;
+    -moz-transform-origin: 50% 255%;
+    transform-origin: 50% 25%; }
+  .h_box_right .collcetion .collect_tit:hover {
+    color: #248DCC; }
+  .h_box_right .collcetion:hover {
+    display: block; }
+  .h_box_right .mobileApp i {
+    background-position: -334px -46px; }
+  .h_box_right .mobileApp img {
+    display: none;
+    width: 80px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    margin-top: -2px; }
+  .h_box_right .mobileApp:hover img {
+    display: block; }
+
+.head_box {
+  width: 1200px;
+  margin: 0 auto; }
+  .head_box img {
+    width: 1200px;
+    margin: 0 auto;
+    display: block; }
+  .head_box .top_search {
+    padding-top: 10px;
+    font-size: 12px;
+    height: 100px;
+    display: block; }
+    .head_box .top_search .logo {
+      float: left;
+      height: 94px;
+      width: 268px;
+      position: relative; }
+      .head_box .top_search .logo .dog_logo {
+        display: inline-block;
+        width: 268px;
+        height: 94px;
+        background: url("https://static.epetbar.com/static_web/pc/dist/images/background/epet-logo.png") 0 -12px no-repeat;
+        margin-top: 7px; }
+    .head_box .top_search .search {
+      margin: 23px 0 0 33px;
+      float: left; }
+      .head_box .top_search .search .searchworld {
+        border: #459d36 solid 2px;
+        background: 0 0;
+        padding: 0 5px 0 15px;
+        width: 382px;
+        height: 30px;
+        outline: 0;
+        line-height: 30px;
+        font-size: 14px;
+        float: left; }
+      .head_box .top_search .search .searchbtn {
+        border: 0;
+        width: 73px;
+        height: 30px;
+        vertical-align: top;
+        cursor: pointer;
+        background-color: #459d36;
+        color: #FFF;
+        font-size: 14px; }
+    .head_box .top_search .keywords {
+      margin: 10px 0;
+      width: 498px;
+      height: 17px;
+      overflow: hidden; }
+      .head_box .top_search .keywords label {
+        float: left;
+        white-space: nowrap;
+        color: #999; }
+      .head_box .top_search .keywords a {
+        display: inline;
+        white-space: nowrap;
+        color: #999; }
+      .head_box .top_search .keywords span {
+        color: #999;
+        margin: 0 10px; }
+      .head_box .top_search .keywords .cred {
+        color: red; }
+    .head_box .top_search .go_buy {
+      margin: 23px 0 0;
+      width: 130px;
+      height: 39px;
+      text-align: center;
+      text-indent: 2em;
+      background: url("https://static.epetbar.com/static_web/pc/dist/images/background/shopping-cart.gif") no-repeat;
+      float: right; }
+      .head_box .top_search .go_buy .buy_car {
+        line-height: 39px;
+        color: #666; }
+        .head_box .top_search .go_buy .buy_car .buy_num {
+          display: inline-block;
+          vertical-align: middle;
+          margin-top: -4px;
+          color: #f40;
+          text-indent: 0;
+          margin-left: 2px; }
+  .head_box .top_nav {
+    padding-top: 10px;
+    height: 44px;
+    border-bottom: #357e34 solid 2px; }
+    .head_box .top_nav .dognav_list {
+      position: relative; }
+      .head_box .top_nav .dognav_list .nav_left {
+        position: relative;
+        float: left;
+        width: 288px; }
+        .head_box .top_nav .dognav_list .nav_left .nav_left_title {
+          height: 34px;
+          line-height: 32px;
+          color: #FFF;
+          font-size: 16px;
+          text-align: center; }
+          .head_box .top_nav .dognav_list .nav_left .nav_left_title span {
+            float: left;
+            width: 115px;
+            height: 32px;
+            text-align: center;
+            color: #666;
+            cursor: pointer; }
+            .head_box .top_nav .dognav_list .nav_left .nav_left_title span b {
+              display: inline-block;
+              vertical-align: middle;
+              margin-top: -2px;
+              background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg2.png") no-repeat;
+              margin-left: 5px; }
+          .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title1 {
+            position: relative; }
+            .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title1:hover .cate1 {
+              -webkit-transform: rotate(180deg);
+              -ms-transform: rotate(180deg);
+              -moz-transform: rotate(180deg);
+              -o-transform: rotate(180deg);
+              transform: rotate(180deg);
+              background-position: 0 -1257px; }
+            .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title1:hover .pet-cate {
+              display: block; }
+            .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title1 .cate1 {
+              width: 16px;
+              height: 13px;
+              background-position: -17px -1257px; }
+          .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title2 {
+            color: #888; }
+            .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title2:hover .cate2 {
+              -webkit-transform: rotate(180deg);
+              -ms-transform: rotate(180deg);
+              -moz-transform: rotate(180deg);
+              -o-transform: rotate(180deg);
+              transform: rotate(180deg);
+              color: #fff;
+              background-position: 0 -1276px; }
+            .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title2:hover .doglist {
+              display: block; }
+            .head_box .top_nav .dognav_list .nav_left .nav_left_title .left_title2 .cate2 {
+              background-position: -17px -1276px;
+              width: 13px;
+              height: 7px; }
+          .head_box .top_nav .dognav_list .nav_left .nav_left_title .changecolor {
+            background-color: #22990d;
+            border: 1px solid #46ab50; }
+      .head_box .top_nav .dognav_list .dog_nav {
+        width: 228px;
+        position: absolute;
+        top: 34px;
+        left: 0;
+        border-top: 2px solid #FFF; }
+        .head_box .top_nav .dognav_list .dog_nav .doglist {
+          height: 358px;
+          position: relative;
+          display: none; }
+          .head_box .top_nav .dognav_list .dog_nav .doglist ul {
+            overflow: hidden;
+            background: #fff; }
+            .head_box .top_nav .dognav_list .dog_nav .doglist ul li {
+              height: 51px;
+              display: block;
+              width: 100%;
+              float: left;
+              background: url("https://static.epetbar.com/static_web/pc/dist/images/background/menuLine1.png") 50% bottom no-repeat; }
+              .head_box .top_nav .dognav_list .dog_nav .doglist ul li h3 {
+                background-position: right -1206px;
+                background-repeat: no-repeat;
+                padding-left: 16px;
+                font-weight: 400;
+                height: 50px;
+                line-height: 50px;
+                background-color: #fcfcfc;
+                background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg2.png?v=0128"); }
+                .head_box .top_nav .dognav_list .dog_nav .doglist ul li h3 a {
+                  font-size: 14px;
+                  display: inline-block;
+                  width: 88px;
+                  overflow: hidden;
+                  height: 50px; }
+                  .head_box .top_nav .dognav_list .dog_nav .doglist ul li h3 a i {
+                    display: inline-block;
+                    color: #999;
+                    width: 40px;
+                    font-size: 12px;
+                    margin-left: 4px; }
+          .head_box .top_nav .dognav_list .dog_nav .doglist .pet-active {
+            height: 52px;
+            line-height: 52px;
+            background: #fff;
+            color: #22990d;
+            text-indent: 20px;
+            font-size: 14px; }
+            .head_box .top_nav .dognav_list .dog_nav .doglist .pet-active img {
+              vertical-align: middle;
+              margin-top: -3px;
+              margin-right: 5px;
+              width: 17px;
+              height: 22px;
+              display: inline-block; }
+            .head_box .top_nav .dognav_list .dog_nav .doglist .pet-active a {
+              height: 24px;
+              padding: 0 9px;
+              border-radius: 8px;
+              background: #fb6003;
+              color: #fff;
+              margin-left: 10px; }
+        .head_box .top_nav .dognav_list .dog_nav .pet-cate {
+          height: 358px;
+          overflow: hidden;
+          display: none; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate dd {
+            height: 119px;
+            text-align: center;
+            background: #fff; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate dd a span {
+              display: inline-block;
+              width: 60px;
+              height: 60px;
+              margin-top: 27px;
+              background: url("https://static.epetbar.com/static_web/pc/dist/images/background/new_petcate.png"); }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate dd > span {
+            display: inline-block;
+            width: 110px;
+            height: 60px;
+            margin-left: 8px;
+            margin-top: 27px;
+            vertical-align: top; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate dd > span p {
+              line-height: 24px;
+              padding-bottom: 4px;
+              color: #333;
+              font-size: 12px; }
+              .head_box .top_nav .dognav_list .dog_nav .pet-cate dd > span p .cstress {
+                color: #f03e3e; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate dd > span .c999 {
+              color: #999;
+              font-size: 12px; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .dognow {
+            background-color: #f5f5f5;
+            border-bottom: 0; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .dognow span {
+              background-position: 0 -180px; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-mm {
+            border-bottom: 1px dashed #ccc; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-mm span {
+              background-position: 0 -60px; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-mm:hover .cat-shatype img {
+              left: -25px; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-mm .p-link {
+              border: 1px solid #e74085;
+              color: #e74085; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-mm .cat-shatype {
+              background: 0 0;
+              width: 27px;
+              position: absolute;
+              top: 119px;
+              left: 0;
+              z-index: -1; }
+              .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-mm .cat-shatype img {
+                width: 27px;
+                height: 119px;
+                display: block;
+                transition: left .3s;
+                -moz-animation: left .3s;
+                -webkit-transition: left .3s;
+                -o-transition: left .3s;
+                position: absolute;
+                top: 0;
+                left: 0; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-fish span {
+            background-position: 0 -120px; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-fish span .p-link {
+              border: 1px solid #059ee0;
+              color: #059ee0; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-fish .fish-fishtanktype {
+            background: 0 0;
+            width: 27px;
+            position: absolute;
+            top: 238px;
+            left: 0;
+            z-index: -1; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-fish .fish-fishtanktype img {
+              width: 27px;
+              height: 119px;
+              display: block;
+              transition: left .3s;
+              -moz-animation: left .3s;
+              -webkit-transition: left .3s;
+              -o-transition: left .3s;
+              position: absolute;
+              top: 0;
+              left: 0; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-fish:hover .fish-fishtanktype img {
+            left: -25px; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-ph:hover .dogcloth img {
+            left: -25px; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .p-link {
+            border: 1px solid #aeaeae;
+            color: #aeaeae;
+            display: inline-block;
+            font-size: 12px;
+            width: 108px;
+            height: 28px;
+            line-height: 30px;
+            text-align: center; }
+          .head_box .top_nav .dognav_list .dog_nav .pet-cate .dogcloth {
+            background: 0 0;
+            position: absolute;
+            width: 27px;
+            top: 0;
+            left: 0;
+            z-index: -1; }
+            .head_box .top_nav .dognav_list .dog_nav .pet-cate .dogcloth img {
+              width: 27px;
+              height: 119px;
+              display: block;
+              transition: left .3s;
+              -moz-animation: left .3s;
+              -webkit-transition: left .3s;
+              -o-transition: left .3s;
+              position: absolute;
+              top: 0;
+              left: 0; }
+    .head_box .top_nav .nav_right {
+      overflow: hidden;
+      height: 34px; }
+      .head_box .top_nav .nav_right li {
+        float: left;
+        position: relative; }
+        .head_box .top_nav .nav_right li .right_nav {
+          float: left;
+          line-height: 34px;
+          font-size: 16px;
+          color: #000;
+          font-weight: 700;
+          padding: 0 20px;
+          text-decoration: none;
+          height: 34px; }
+          .head_box .top_nav .nav_right li .right_nav .logoimg {
+            width: 100px;
+            position: inherit;
+            margin-top: -2px; }
+          .head_box .top_nav .nav_right li .right_nav b {
+            display: inline-block;
+            width: 13px;
+            height: 17px;
+            background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bg2.png") -35px -1280px;
+            vertical-align: middle;
+            margin-top: -2px;
+            margin-right: 6px;
+            color: #459d36;
+            -webkit-transition: -webkit-transform .2s ease-out;
+            -moz-transition: -moz-transform .2s ease-out;
+            -o-transition: -o-transform .2s ease-out;
+            -ms-transition: -ms-transform .2s ease-out; }
+          .head_box .top_nav .nav_right li .right_nav b:hover {
+            -webkit-transform: rotateZ(360deg);
+            -moz-transform: rotateZ(360deg);
+            -o-transform: rotateZ(360deg);
+            -ms-transform: rotateZ(360deg);
+            transform: rotateZ(360deg); }
+        .head_box .top_nav .nav_right li .right_nav:hover {
+          color: #459d36; }
+
+.main .bg1 {
+  height: 400px;
+  background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/1812_01.jpg") center; }
+  .main .bg1 .rule-pos {
+    width: 250px;
+    height: 100px;
+    right: 5px;
+    top: 0; }
+
+.main .bg2 {
+  height: 400px;
+  background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/1812_02.jpg") center; }
+
+.main .bg3 {
+  height: 274px;
+  background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/1812_03.jpg") center; }
+  .main .bg3 .notice {
+    width: 265px;
+    height: 122px;
+    background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/notice.png");
+    right: 135px;
+    bottom: 60px;
+    overflow: hidden; }
+
+.main .h100 {
+  height: 100%; }
+
+.main .w1200 {
+  width: 1200px; }
+
+.main .ct {
+  margin: 0 auto; }
+
+.main .rela .rel {
+  position: relative; }
+
+.main .abs {
+  position: relative; }

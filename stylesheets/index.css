@@ -1400,90 +1400,205 @@ header {
   padding-top: 5px; }
 
 .fixedtop span {
-  background: url(../images/bar_new.png) no-repeat -3px -210px;
+  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png") no-repeat 0 -235px;
   display: block;
   widows: 30px;
   height: 30px; }
 
 .fixedtop:hover {
-  background: #666; }
+  background: #555; }
 
 .fixedtop:hover span {
-  background: url(../images/bar_newhover.png) no-repeat -3px -210px; }
+  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_newhover.png") no-repeat 0 -235px; }
 
 .fixedmid li {
   height: 117px;
-  width: 23px;
-  padding-left: 7px; }
+  width: 30px;
+  padding-left: -4px;
+  position: relative; }
 
 .gouwubiao {
-  background: url(../images/bar_new.png) no-repeat -7px -268px;
+  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png") no-repeat 0 -270px;
   display: block;
-  width: 19px;
+  width: 30px;
   height: 30px; }
+
+.r_shopcar p {
+  color: #a6a6a6;
+  width: 19px;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 5px;
+  display: block; }
 
 .gouwushu {
   background: #a6a6a6;
   border-radius: 50%;
-  margin-left: -2px;
+  margin-left: 5px;
+  margin-top: 2px;
+  line-height: 20px;
+  text-align: center;
   display: block;
   width: 20px;
   height: 20px; }
 
-.fixedmid li:hover {
-  background: #666; }
+.fixedmid .r_shopcar:hover a {
+  color: #fff; }
 
-.fixedmid li:hover a {
-  color: white; }
+.online:hover a {
+  color: #fff;
+  background: #555;
+  display: block; }
 
-.fixedmid li:hover .gouwubiao {
-  background: url(../images/bar_newhover.png) no-repeat -7px -268px; }
+.online:hover b {
+  color: #fff; }
 
-.fixedmid li:hover .gouwushu {
-  background: white; }
+.fixedmid .r_shopcar:hover p {
+  color: #fff; }
 
-.fixedmid li:nth-child(2) {
+.fixedmid .r_shopcar:hover .gouwubiao {
+  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_newhover.png") no-repeat 0 -270px; }
+
+.fixedmid .r_shopcar:hover .gouwushu {
+  color: #000;
+  background: #fff; }
+
+.fixedmid .online {
   margin-top: 15px; }
+  .fixedmid .online a {
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    color: #a6a6a6;
+    display: block;
+    font-size: 12px; }
 
-.fixedmid li:nth-child(2) span {
-  background: url(../images/bar_new.png) no-repeat -4px -621px;
+.fixedmid .online span {
+  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png") no-repeat -4px -621px;
   display: block;
   width: 30px;
   height: 30px; }
 
-.fixedmid li:nth-child(2):hover span {
-  background: url(../images/bar_newhover.png) no-repeat -4px -621px; }
+.fixedmid .online:hover span {
+  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_newhover.png") no-repeat -4px -621px; }
 
 .fixedbot ul {
-  margin-top: 40px; }
+  margin-top: -9px; }
 
 .fixedbot li {
   padding-top: 10px; }
+  .fixedbot li .nologin-order {
+    text-align: center;
+    color: #000;
+    position: absolute;
+    top: 374px;
+    right: 30px;
+    background: #fff;
+    width: 325px;
+    height: 128px;
+    line-height: 128px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    display: none; }
+    .fixedbot li .nologin-order a {
+      text-decoration: underline;
+      color: #f00; }
 
-.fixedbot span {
-  background: url(../images/bar_new.png) no-repeat -4px -701px;
+.wendang:hover .nologin-order {
+  display: block; }
+
+.fixedbot .wenbox {
+  background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png");
+  background-repeat: no-repeat;
   display: block;
   width: 30px;
   height: 30px; }
+
+.fixedbot .starbox {
+  background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 30px;
+  height: 30px; }
+
+.starbox {
+  background-position: -1px -693px; }
+
+.wenbox {
+  background-position: 0 -305px; }
 
 .fixedbot li:hover {
   background: #666; }
 
 .fixedbot li:hover span {
-  background: url(../images/bar_newhover.png) no-repeat -4px -701px; }
+  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_newhover.png"); }
 
-/*activity*/
-.activity_img1 {
-  width: 100%; }
+.fixedbot li:hover .starbox {
+  background-position: -1px -693px; }
 
-.activity_img1 img {
-  width: 100%;
-  height: 100%; }
+.fixedbot li:hover .wenbox {
+  background-position: 0 -305px; }
 
-.activity_img2 {
-  width: 100%;
-  height: 100%;
-  background: #52b663; }
+.bagbox {
+  background: #fff;
+  width: 292px;
+  position: absolute;
+  right: 29px;
+  top: 71px;
+  padding: 0 10px 10px 21px;
+  border: 1px solid #ccc;
+  display: none; }
+  .bagbox .bagbox_word {
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    padding: 50px 0; }
+    .bagbox .bagbox_word a {
+      text-decoration: underline;
+      color: red; }
 
-.activity_img2 img {
-  margin: 0 auto; }
+.fixedtop:hover .bagbox {
+  display: block; }
+
+.cartview {
+  right: 30px;
+  left: inherit;
+  top: 135px;
+  position: fixed;
+  display: none;
+  width: 510px;
+  z-index: 9999;
+  cursor: default;
+  border: 1px solid #ccc; }
+  .cartview .tancbox {
+    border-top: 1px solid #ddd;
+    border: 1px solid #ddd;
+    padding: 15px;
+    padding-top: 25px;
+    background-color: #fff; }
+    .cartview .tancbox .tancbox_word {
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 20px;
+      text-align: center; }
+
+.r_shopcar:hover .cartview {
+  display: block; }
+
+.rtcont-dn {
+  position: absolute;
+  bottom: 20px; }
+  .rtcont-dn .rtl {
+    position: relative; }
+    .rtcont-dn .rtl .rt-app {
+      background-position: 0 -410px; }
+    .rtcont-dn .rtl .rtico {
+      background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png");
+      background-repeat: no-repeat;
+      display: block;
+      width: 35px;
+      height: 35px; }
+    .rtcont-dn .rtl .rt-weixin {
+      background-position: 0 -720px;
+      cursor: pointer;
+      margin-bottom: 0; }
