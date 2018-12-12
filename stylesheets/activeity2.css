@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   word-wrap: break-word; }
 
@@ -673,622 +672,71 @@ header {
         .head_box .top_nav .nav_right li .right_nav:hover {
           color: #459d36; }
 
-.main .bg1 {
-  height: 400px;
-  background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/1812_01.jpg") center; }
-  .main .bg1 .rule-pos {
-    width: 250px;
-    height: 100px;
-    right: 5px;
-    top: 0; }
-
-.main .bg2 {
-  height: 400px;
-  background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/1812_02.jpg") center; }
-
-.main .bg3 {
-  height: 274px;
-  background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/1812_03.jpg") center;
-  position: relative; }
-  .main .bg3 .notice {
-    width: 265px;
-    height: 122px;
-    background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/notice.png");
-    position: absolute;
-    left: 786px;
-    bottom: -83px;
-    overflow: hidden; }
-    .main .bg3 .notice ul {
-      width: 265px;
-      margin: 10px; }
-      .main .bg3 .notice ul li {
-        height: 122px;
-        overflow: hidden;
-        text-align: center;
-        width: 178px; }
-        .main .bg3 .notice ul li .cyellow {
-          color: #ffe400; }
-      .main .bg3 .notice ul .cff {
-        color: #fff; }
-      .main .bg3 .notice ul .ft28 {
-        font-size: 28px;
-        color: #fff; }
-
-.main .bg4 {
-  height: 578px;
-  background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/1812_04.jpg") center; }
-  .main .bg4 .rela {
-    position: relative; }
-    .main .bg4 .rela .btn-pos {
-      width: 235px;
-      height: 70px;
-      right: 171px;
-      bottom: 45px; }
-    .main .bg4 .rela .abs {
-      position: absolute; }
-
-.main .bg5 {
-  height: 600px;
-  background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/1812_05.jpg") center; }
-  .main .bg5 .btn-pos {
-    width: 235px;
-    height: 70px;
-    right: 485px;
-    bottom: 33px; }
-  .main .bg5 .abs {
-    position: absolute; }
-
-.main .bg6 {
-  height: 624px;
-  background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/1812_06.jpg") center; }
-  .main .bg6 .rela {
-    position: relative; }
-    .main .bg6 .rela .btn-pos {
-      width: 322px;
-      height: 70px;
-      background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/action_btn.png");
-      bottom: 54px;
-      left: 440px; }
-      .main .bg6 .rela .btn-pos img {
-        margin-top: 8px; }
-      .main .bg6 .rela .btn-pos .animated {
-        -webkit-animation-duration: 2s;
-        animation-duration: 2s;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both; }
-      .main .bg6 .rela .btn-pos .infinite {
-        -webkit-animation-iteration-count: infinite;
-        animation-iteration-count: infinite; }
-      .main .bg6 .rela .btn-pos .slideInLeft {
-        -webkit-animation-name: slideInLeft;
-        animation-name: slideInLeft; }
-      .main .bg6 .rela .btn-pos .db {
-        display: block; }
-    .main .bg6 .rela .abs {
-      position: absolute; }
-
-.main .repeat-bg {
-  background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/repeat_bg.jpg") top center repeat-y;
-  padding-bottom: 150px; }
-  .main .repeat-bg .hotgoods {
-    width: 1086px;
-    height: 517px;
-    background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/1812_07.png"); }
-    .main .repeat-bg .hotgoods .timer {
-      top: 120px;
-      left: 300px; }
-      .main .repeat-bg .hotgoods .timer .fl {
-        float: left; }
-      .main .repeat-bg .hotgoods .timer .cfff {
-        color: #fff; }
-      .main .repeat-bg .hotgoods .timer .time-bg {
-        width: 51px;
-        height: 35px;
-        background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/time-bg.png");
-        font-size: 24px;
-        line-height: 26px;
-        letter-spacing: 8px;
-        padding-left: 5px; }
-      .main .repeat-bg .hotgoods .timer span {
-        font-size: 24px;
-        line-height: 26px; }
-    .main .repeat-bg .hotgoods .schedule {
-      top: 300px;
-      left: 45px;
-      color: #fff; }
-      .main .repeat-bg .hotgoods .schedule .mt20, .main .repeat-bg .hotgoods .schedule .mtop20 {
-        margin-top: 20px; }
-      .main .repeat-bg .hotgoods .schedule .ft24 {
-        font-size: 24px; }
-    .main .repeat-bg .hotgoods .goods-tab {
-      top: 179px;
-      left: 251px; }
-      .main .repeat-bg .hotgoods .goods-tab .tab-in {
-        width: 744px;
-        height: 56px;
-        background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/tab_in.jpg"); }
-      .main .repeat-bg .hotgoods .goods-tab .fl {
-        float: left; }
-      .main .repeat-bg .hotgoods .goods-tab .pad20 {
-        padding: 20px; }
-        .main .repeat-bg .hotgoods .goods-tab .pad20 .db {
-          display: block; }
-      .main .repeat-bg .hotgoods .goods-tab .textover {
-        width: 160px;
-        overflow: hidden;
-        white-space: nowrap;
-        word-wrap: normal;
-        text-overflow: ellipsis; }
-      .main .repeat-bg .hotgoods .goods-tab .cf0 {
-        color: #f03e3e; }
-      .main .repeat-bg .hotgoods .goods-tab .ft20 {
-        font-size: 20px; }
-      .main .repeat-bg .hotgoods .goods-tab .line-through {
-        text-decoration: line-through;
-        font-size: 14px;
-        padding-left: 15px;
-        color: #666; }
-    .main .repeat-bg .hotgoods .abs {
-      position: absolute; }
-  .main .repeat-bg .rela {
-    position: relative; }
-  .main .repeat-bg .ml100 {
-    margin-left: 100px; }
-
-.main .map {
-  position: fixed;
-  bottom: 7px;
-  right: 30px;
-  width: 150px;
-  height: 746px;
-  background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/map.png");
-  z-index: 99;
-  display: none; }
-  .main .map .pettype {
-    padding-top: 175px; }
-  .main .map .pettype > a {
-    height: 35px;
-    line-height: 28px;
-    font-size: 28px;
-    color: #fff3a4;
-    padding-left: 20px; }
-  .main .map .mt8 {
-    margin-top: 8px; }
-    .main .map .mt8 li {
-      width: 148px;
-      height: 30px;
-      color: #fff;
-      text-align: center;
-      line-height: 30px;
-      font-size: 18px;
-      cursor: pointer; }
-  .main .map .spe-map {
-    width: 138px;
-    margin: 0 auto; }
-    .main .map .spe-map p {
-      width: 50%;
-      color: #c44504;
-      font-size: 14px;
-      line-height: 30px;
-      cursor: pointer;
-      float: left;
-      text-align: center; }
-  .main .map .mt5 {
-    margin-top: 5px; }
-    .main .map .mt5 li {
-      width: 148px;
-      height: 30px;
-      color: #fff;
-      text-align: center;
-      line-height: 30px;
-      font-size: 18px;
-      cursor: pointer; }
-  .main .map .to-top {
-    padding-top: 122px; }
-  .main .map .to-top > a {
-    width: 102px;
-    height: 40px; }
-
-.main .h100 {
-  height: 100%; }
-
-.main .w1200 {
-  width: 1200px; }
-
-.main .ct {
-  margin: 0 auto; }
-
-.main .rela .rel {
-  position: relative; }
-
-.main .abs {
-  position: absolute; }
-
-.main .db {
-  display: block; }
-
-.main .dib {
-  display: inline-block; }
-
-#box3 {
-  width: 1326px;
-  height: 455px;
-  background: #f5f5f5;
-  font-size: 12px; }
-
-.end1 {
-  width: 1326px;
-  height: 100px;
-  border-bottom: 1px solid #ddd; }
-
-.end1 ul {
-  width: 1228px;
-  height: 100px;
-  margin: 0 auto; }
-
-.end1 li {
-  float: left;
-  width: 190px;
-  height: 100px;
-  position: relative;
-  padding-left: 60px;
-  text-align: center;
-  line-height: 100px;
-  font-size: 18px;
-  font-weight: 900; }
-
-.end1 li:hover {
-  transition: all 1s;
-  transform: translate(0, -7px); }
-
-.end1 li:hover a {
-  color: red;
-  transition: all 1s; }
-
-.end1 a {
-  color: black; }
-
-.end1 span {
-  display: inline-block;
-  width: 62px;
-  height: 62px;
-  position: absolute;
-  top: 20px;
-  left: 0; }
-
-.end1 li:nth-child(1) span {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/footer/logo.png") no-repeat 0 0; }
-
-.end1 li:nth-child(2) span {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/footer/logo.png") no-repeat 0 -81px; }
-
-.end1 li:nth-child(3) span {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/footer/logo.png") no-repeat 0 -162px; }
-
-.end1 li:nth-child(4) span {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/footer/logo.png") no-repeat 0 -243px; }
-
-.end1 li:nth-child(5) span {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/footer/logo.png") no-repeat 0 -324px; }
-
-.end1 li:nth-child(6) span {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/footer/logo.png") no-repeat 0 -405px; }
-
-.end2 {
-  height: 185px;
-  border-bottom: 1px solid #e5e5e5; }
-
-.end2lt {
-  width: 388px;
-  height: 156px;
-  padding-top: 30px;
-  float: left; }
-
-.end2lt div {
-  float: left;
-  color: #666; }
-
-.end2lt div:nth-child(2) {
-  margin-left: 31px;
-  line-height: 30px; }
-
-.end2lt div:nth-child(2) p {
-  font-size: 12px; }
-
-#box3 .minsize {
-  font-size: 20px; }
-
-#box3 .minsize span {
-  font-size: 12px; }
-
-.end2cen {
-  width: 578px;
-  height: 186px;
-  float: left; }
-
-.end2cen ul {
-  float: left;
-  margin-right: 84px;
-  line-height: 25px; }
-
-.end2cen li:hover a {
-  border-bottom: 1px solid red;
-  color: red; }
-
-.end2cen p {
-  margin: 25px 0; }
-
-.end2rt {
-  text-align: center;
-  font-size: 12px; }
-
-.end2rt div {
-  float: left; }
-
-.end2rt div:nth-child(1) {
-  margin-right: 50px; }
-
-.end2rt p:nth-child(1) {
-  margin-top: 22px; }
-
-.end2rt img {
-  margin-top: 10px; }
-
-.end3 {
-  font-size: 12px;
-  width: 1150px;
-  height: 20px;
-  margin: 0 auto; }
-
-.end3 h5 {
-  margin: 23px 0;
-  color: #999;
-  padding-left: 20px;
-  font-size: 12px; }
-  .end3 h5 a {
-    color: #999;
-    display: inline-block;
-    margin: 0 15px 10px 0; }
-
-.end3 h5 a:hover {
-  border-bottom: 1px solid red;
-  color: red; }
-
-.end3 div {
+.wrap {
+  padding-top: 20px;
   width: 1190px;
-  height: 50px;
-  padding-left: 37px; }
+  margin: 0 auto; }
 
-.end3 img {
+#wrap::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.box {
+  width: 22%;
   float: left;
-  margin-right: 8px; }
+  box-shadow: 0 0 5px #000;
+  margin: 15px; }
 
-.end3 p {
-  text-align: center;
-  font-size: 12px;
-  color: #444; }
-
-.end3 p a:hover {
-  border-bottom: 1px solid red;
-  color: red; }
-
-/*右侧固定栏*/
-.fixedrt {
+.box img {
+  width: 100%;
   height: 100%;
-  width: 30px;
-  background: #444;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 999999; }
+  display: block; }
 
-.fixedtop {
-  width: 30px;
-  height: 30px;
-  margin-top: 70px;
-  margin-bottom: 35px;
-  padding-top: 5px; }
-
-.fixedtop span {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png") no-repeat 0 -235px;
-  display: block;
-  widows: 30px;
-  height: 30px; }
-
-.fixedtop:hover {
-  background: #555; }
-
-.fixedtop:hover span {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_newhover.png") no-repeat 0 -235px; }
-
-.fixedmid li {
-  height: 117px;
-  width: 30px;
-  padding-left: -4px;
-  position: relative; }
-
-.gouwubiao {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png") no-repeat 0 -270px;
-  display: block;
-  width: 30px;
-  height: 30px; }
-
-.r_shopcar p {
-  color: #a6a6a6;
-  width: 19px;
+.box p {
   font-size: 12px;
-  text-align: center;
-  margin-left: 5px;
-  display: block; }
-
-.gouwushu {
-  background: #a6a6a6;
-  border-radius: 50%;
-  margin-left: 5px;
-  margin-top: 2px;
-  line-height: 20px;
-  text-align: center;
-  display: block;
-  width: 20px;
-  height: 20px; }
-
-.fixedmid .r_shopcar:hover a {
-  color: #fff; }
-
-.online:hover a {
-  color: #fff;
-  background: #555;
-  display: block; }
-
-.online:hover b {
-  color: #fff; }
-
-.fixedmid .r_shopcar:hover p {
-  color: #fff; }
-
-.fixedmid .r_shopcar:hover .gouwubiao {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_newhover.png") no-repeat 0 -270px; }
-
-.fixedmid .r_shopcar:hover .gouwushu {
   color: #000;
-  background: #fff; }
-
-.fixedmid .online {
-  margin-top: 15px; }
-  .fixedmid .online a {
-    width: 30px;
-    text-align: center;
-    padding: 5px;
-    color: #a6a6a6;
-    display: block;
-    font-size: 12px; }
-
-.fixedmid .online span {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png") no-repeat -4px -621px;
-  display: block;
-  width: 30px;
-  height: 30px; }
-
-.fixedmid .online:hover span {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_newhover.png") no-repeat -4px -621px; }
-
-.fixedbot ul {
-  margin-top: -9px; }
-
-.fixedbot li {
-  padding-top: 10px; }
-  .fixedbot li .nologin-order {
-    text-align: center;
-    color: #000;
-    position: absolute;
-    top: 374px;
-    right: 30px;
-    background: #fff;
-    width: 325px;
-    height: 128px;
-    line-height: 128px;
-    border: 1px solid #ccc;
-    font-size: 14px;
-    display: none; }
-    .fixedbot li .nologin-order a {
-      text-decoration: underline;
-      color: #f00; }
-
-.wendang:hover .nologin-order {
+  padding: 10px;
+  line-height: 20px;
+  height: 70px;
   display: block; }
 
-.fixedbot .wenbox {
-  background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png");
-  background-repeat: no-repeat;
+.box .goodsprice {
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 5px; }
+
+.box span {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  float: left; }
+
+.box b {
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: line-through;
+  line-height: 40px;
+  float: right; }
+
+.box strong {
+  width: 80%;
+  height: 25px;
+  background: #f03e3e;
+  color: #fff;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  line-height: 25px;
+  text-align: center;
   display: block;
-  width: 30px;
-  height: 30px; }
+  margin: 10px 25px; }
 
-.fixedbot .starbox {
-  background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png");
-  background-repeat: no-repeat;
-  display: block;
-  width: 30px;
-  height: 30px; }
-
-.starbox {
-  background-position: -1px -693px; }
-
-.wenbox {
-  background-position: 0 -305px; }
-
-.fixedbot li:hover {
-  background: #666; }
-
-.fixedbot li:hover span {
-  background: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_newhover.png"); }
-
-.fixedbot li:hover .starbox {
-  background-position: -1px -693px; }
-
-.fixedbot li:hover .wenbox {
-  background-position: 0 -305px; }
-
-.bagbox {
-  background: #fff;
-  width: 292px;
-  position: absolute;
-  right: 29px;
-  top: 71px;
-  padding: 0 10px 10px 21px;
-  border: 1px solid #ccc;
-  display: none; }
-  .bagbox .bagbox_word {
-    text-align: center;
-    font-size: 12px;
-    color: #000;
-    padding: 50px 0; }
-    .bagbox .bagbox_word a {
-      text-decoration: underline;
-      color: red; }
-
-.fixedtop:hover .bagbox {
-  display: block; }
-
-.cartview {
-  right: 30px;
-  left: inherit;
-  top: 135px;
-  position: fixed;
-  display: none;
-  width: 510px;
-  z-index: 9999;
-  cursor: default;
-  border: 1px solid #ccc; }
-  .cartview .tancbox {
-    border-top: 1px solid #ddd;
-    border: 1px solid #ddd;
-    padding: 15px;
-    padding-top: 25px;
-    background-color: #fff; }
-    .cartview .tancbox .tancbox_word {
-      font-weight: 700;
-      font-size: 14px;
-      margin-bottom: 20px;
-      text-align: center; }
-
-.r_shopcar:hover .cartview {
-  display: block; }
-
-.rtcont-dn {
-  position: absolute;
-  bottom: 20px; }
-  .rtcont-dn .rtl {
-    position: relative; }
-    .rtcont-dn .rtl .rt-app {
-      background-position: 0 -410px; }
-    .rtcont-dn .rtl .rtico {
-      background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png");
-      background-repeat: no-repeat;
-      display: block;
-      width: 35px;
-      height: 35px; }
-    .rtcont-dn .rtl .rt-weixin {
-      background-position: 0 -720px;
-      cursor: pointer;
-      margin-bottom: 0; }
+.line {
+  width: 100%;
+  height: 1px;
+  background: #000;
+  box-shadow: 0 1px 0  #000;
+  opacity: 0.3;
+  border-radius: 1px; }
