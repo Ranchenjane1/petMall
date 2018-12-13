@@ -842,7 +842,7 @@ header {
   width: 150px;
   height: 746px;
   background: url("https://static.epetbar.com/static_sale/pc/1812/regular/images/map.png");
-  z-index: 99;
+  z-index: 1;
   display: none; }
   .main .map .pettype {
     padding-top: 175px; }

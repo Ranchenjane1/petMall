@@ -1,0 +1,1 @@
+{"version":3,"sources":["scroll.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"activeity.js","sourcesContent":["$(window).on(\"scroll\",function(){\r\n    var scroll = $(this).scrollTop();\r\n    if(scroll>500){\r\n        $(\".map\").css({\r\n            \"display\":\"block\"\r\n        })\r\n    }\r\n})"]}

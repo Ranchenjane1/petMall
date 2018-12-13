@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   word-wrap: break-word; }
 
@@ -377,6 +378,7 @@ header {
       width: 130px;
       height: 39px;
       text-align: center;
+      cursor: pointer;
       text-indent: 2em;
       background: url("https://static.epetbar.com/static_web/pc/dist/images/background/shopping-cart.gif") no-repeat;
       float: right; }
@@ -686,6 +688,7 @@ header {
   width: 22%;
   float: left;
   box-shadow: 0 0 5px #000;
+  cursor: pointer;
   margin: 15px; }
 
 .box img {
@@ -740,3 +743,55 @@ header {
   box-shadow: 0 1px 0  #000;
   opacity: 0.3;
   border-radius: 1px; }
+
+.car-list {
+  width: 200px;
+  position: absolute;
+  top: 179px;
+  background: #fff;
+  z-index: 999;
+  border: 1px solid #fff;
+  box-shadow: darkgrey 10px 10px 30px 5px;
+  background: #fff;
+  border-radius: 10px;
+  display: none; }
+  .car-list .clear_btn {
+    width: 60%;
+    background: #f03e3e;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 10px 35px;
+    display: none; }
+  .car-list li {
+    width: 200px;
+    height: 90px;
+    border: 1px solid #dfdfdf;
+    padding: 5px; }
+    .car-list li img {
+      float: left;
+      width: 65px;
+      height: 80px;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center；;
+      display: block; }
+    .car-list li .car_price {
+      display: block;
+      float: left;
+      width: 80px;
+      height: 80px;
+      font-weight: bold;
+      line-height: 70px;
+      text-align: center; }
+    .car-list li .car_count {
+      display: block;
+      width: 35px;
+      float: left;
+      line-height: 70px;
+      text-align: center;
+      color: #f03e3e; }
+
+.go_buy:hover .clear_btn {
+  display: block; }

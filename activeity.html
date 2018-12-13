@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>活动页</title>
     <link rel="stylesheet" href="stylesheets/activeity.css">
+    <link rel="stylesheet" href="stylesheets/detail.css">
     <link rel="stylesheet" href="stylesheets/reset.css">
 </head>
 <body>
@@ -560,65 +561,67 @@
                     <p><a href="">渝ICP备13005525号-2</a>　<a href="">渝ICP备10002905</a>　增值电信业务经营许可证：渝B2-20140042 Copyright © 2007-2018 epet.com 　重庆易宠科技有限公司</p>
                 </div>
             </div>
-        <!--右侧固定栏-->
-	<div class="fixedrt">
-            <!-- <div class="users_login"> -->
-            <div class="fixedtop">
-                <a href="#"><span><a href="#"></a></span></a>
-                <div class="bagbox">
-                        <div class="bagbox_word">您还没有登录，请先
-                            <a  href="#">登录</a>
-                        </div>
-                    </div>
-            </div>
-            
-            <!-- </div> -->
-            <div class="fixedmid">
-                <ul>
-                    <li class="r_shopcar">
-                        <a href="">
-                            <span class="gouwubiao"></span>
-                            <p>购</p>
-                            <p>物</p>
-                            <p>车</p>
-                            <span class="gouwushu">0</span>
-                        </a>
-                        <div class="cartview">
-                        <div class="tancbox">
-                         <div class="tancbox_word">您的购物车中暂无商品，赶快选择心爱的商品吧！</div>
-                        </div>
+     <!--右侧固定导航-->
+     <div id="right-nav">
+            <div class="w">
+                <ul id="right-nav-list1">
+                    <li><a href="#"></a>
+                        <div>
+                            您还没有登录请先<a href="#" target="_blank" class="login1">登录</a>
                         </div>
                     </li>
-                    <li class="online"><a href="#"><span></span><b>在线客服</b></a></li>
-                </ul>
-            </div>
-            <div class="fixedbot">
-                <ul>
-                    <li class="wendang">
-                        <a href="#"><span class="wenbox"></span></a>
-                        <div  class="nologin-order">您还没有登录，请先
-                            <a href="#">登录</a>。</div>
+                    <li>
+                        <a href="#" class="sp1"><i></i><u>购物车</u><b class="shopNum1">0</b></a>
+                        <div>您的购物车里暂没有商品，赶快选择心爱的商品吧！</div>
                     </li>
-                    <li class="star"><a href="#"><span class="starbox"></span></a></li>
+                    <li><a href="#">
+                        <span></span>
+                        <u>在线客服</u>
+                    </a></li>
+                    <li>
+                        <a href="#"></a>
+                        <div>
+                            您还没有登录请先<a href="#" target="_blank" class="login1">登录</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"></a><div></div>
+                    </li>
+                    <li>
+                        <a href="#"></a><div>
+                            <img src="images/ph.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                        <div>
+                            <img src="images/wei.png" alt="">
+                            <em>
+                                官方微信ID:epet01
+                            </em>
+                            <em>一键查询物流，享更多福利</em>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                        <div>
+                            <img src="images/bo.png" alt="">
+                            <a href="#" class="login2">点击进入</a>
+                            <em>E宠商城新浪官方微博</em>
+                        </div>
+                    </li>
                 </ul>
-                <!-- <ul class="rtcont-dn">
-                        <li class="rtl hov">
-                        <a class="rtico rt-app" href="javascript:void(0);"><span></span></a>
-                        </li>
-                        <li class="rtl hov">
-                        <a class="rtico rt-weixin" href="javascript:void(0);"><span></span></a>
-                        </li>
-                        <li class="rtl hov">
-                        <a class="rtico rt-weibo" href="javascript:void(0);"><span></span></a>
-                        </li>
-                        <li class="rtl hov">
-                        <label>返回顶部<em>◆</em></label>
-                        <a class="rtico rt-top" href="javascript:void(0);"></a>
-                        </li>
-                        </ul> -->
+                <ul id="right-nav-list2">
+                    <li><a href="#"></a><div>返回顶部</div></li>
+                </ul>
             </div>
         </div>
-        <script src="javascripts/main.js"></script>
+        <ul id="right-nav-list3">
+            <a href="#" > </a>    
+        </ul>
+        <script src="public/jquery.js"></script>
+        <script src="public/vticker.js"></script>
+        <script src="javascripts/activeity.js"></script>
         <script src="http://cdn.staticfile.org/jquery/1.8.3/jquery.min.js"></script>
         <script src="http://cdn.dowebok.com/141/js/jquery.vticker.min.js"></script>
 </body>
