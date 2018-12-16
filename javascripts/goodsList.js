@@ -6,7 +6,7 @@ function getMsg(){
           dataType:"jsonp"
     })
     .then(function(res){
-        //   console.log(res);
+          console.log(res);
           renderPage(res.result.wall.list);
     })
 

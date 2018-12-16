@@ -159,7 +159,8 @@ header {
     line-height: 25px;
     z-index: 10;
     border: 1px solid #F5F5F5;
-    border-bottom: 0; }
+    border-bottom: 0;
+    position: relative; }
     .h_box_right li:hover .login, .h_box_right li:hover .register, .h_box_right li:hover .shopingcar, .h_box_right li:hover .question, .h_box_right li:hover .mobile {
       color: #248DCC; }
     .h_box_right li i {
@@ -300,15 +301,141 @@ header {
     display: block; }
   .h_box_right .mobileApp i {
     background-position: -334px -46px; }
-  .h_box_right .mobileApp img {
+  .h_box_right .mobileApp .mobile_pic {
     display: none;
     width: 80px;
     position: absolute;
     left: 0;
     top: 25px;
     margin-top: -2px; }
-  .h_box_right .mobileApp:hover img {
+  .h_box_right .mobileApp:hover .mobile_pic {
     display: block; }
+
+.list1-cons {
+  position: absolute;
+  right: -570px;
+  top: -2px;
+  background: #fff;
+  width: 570px;
+  box-shadow: 0 0 5px #ddd;
+  z-index: 1000;
+  padding-bottom: 5px;
+  display: none; }
+
+.clothes-dog {
+  border-bottom: 1px dashed #ddd;
+  height: 49px;
+  font-size: 20px;
+  color: #444;
+  margin: 0 10px;
+  padding-left: 20px; }
+
+.clothes-dog .dog_pic {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-top: 11px; }
+
+.clothes-dog span {
+  display: inline-block;
+  width: 93px;
+  vertical-align: top;
+  height: 49px;
+  line-height: 49px;
+  text-align: center; }
+
+.clothes-dog b {
+  vertical-align: top;
+  margin-top: 20px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ddd;
+  background: url(../images/a.png) no-repeat center; }
+
+.list1-cons dl {
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 12px;
+  padding-left: 63px;
+  border-bottom: 1px dashed #ddd;
+  margin: 0 10px; }
+
+.list1-cons dl dt {
+  padding-right: 34px;
+  color: green;
+  float: left;
+  margin-right: 14px;
+  font-weight: 700; }
+
+.list1-cons dl .dt1 {
+  background: url(./images/556a307689a1bda2299be27956015cd4.jpg) no-repeat right center;
+  background-size: contain; }
+
+.list1-cons dl .dt2 {
+  background: url(./images/332cb407ae3df288233aa8e46507ccde.jpg) no-repeat right center;
+  background-size: contain; }
+
+.list1-cons dl .dt3 {
+  background: url(./images/51e8e71ae5afe739039bf46ff5057c8e.jpg) no-repeat right center;
+  background-size: contain; }
+
+.list1-cons dl .dt4 {
+  background: url(./images/b537f6235f3cab502e8703699150ede4.jpg) no-repeat right center;
+  background-size: contain; }
+
+.list1-cons dl .dt5 {
+  background: url(./images/0071af1e77ccd8f4d7872790aa92479b.jpg) no-repeat right center;
+  background-size: contain; }
+
+.list1-cons dl .dt6 {
+  background: url(./images/7feeef10bab3d2e8df8a9149e0cb7c70.jpg) no-repeat right center;
+  background-size: contain; }
+
+.list1-cons dl .dt7 {
+  background: url(./images/1d55d100e176bd571e4b0fd85604a14d.jpg) no-repeat right center;
+  background-size: contain; }
+
+.list1-cons dl .dt8 {
+  background: url(images/d55b1ff4802aa8b6eb402c6292022084.jpg) no-repeat right center;
+  background-size: contain; }
+
+.list1-cons dl .dt9 {
+  background: url(images/9992306702d0257c7605d31cb8dfd904.jpg) no-repeat right center;
+  background-size: contain; }
+
+.list1-cons dl .dt10 {
+  background: url(./images/e5c30119eb36ad6b45173dac6b38a27e.jpg) no-repeat right center;
+  background-size: contain; }
+
+.list1-cons dl .dt11 {
+  background: url(./images/85f7ec76b05ebacb8c9972ddfb2ed4e4.jpg) no-repeat right center;
+  background-size: contain; }
+
+.list1-cons dl .dt12 {
+  background: url(./images/dece3cc8ca59cd3431f395cd61ccf6d0.jpg) no-repeat right center;
+  background-size: contain; }
+
+.list1-cons dl dd a {
+  color: #929192;
+  float: left;
+  border-left: 1px solid #ddd;
+  height: 16px;
+  line-height: 16px;
+  display: block;
+  margin-top: 12px;
+  padding-left: 7px;
+  margin-right: 9px; }
+
+.list1-cons dl dd a:hover {
+  color: #059ee0; }
+
+#banner-pic {
+  float: left;
+  width: 770px;
+  height: 360px;
+  position: relative; }
 
 .head_box {
   width: 1200px;
@@ -491,6 +618,13 @@ header {
                     width: 40px;
                     font-size: 12px;
                     margin-left: 4px; }
+            .head_box .top_nav .dognav_list .dog_nav .doglist ul .dog_nav1:hover .dag_nav_tit {
+              border-top: 1px solid green;
+              border-bottom: 1px solid green;
+              border-right: 1px solid #fff; }
+            .head_box .top_nav .dognav_list .dog_nav .doglist ul .dog_nav1:hover .list1-cons {
+              display: block;
+              border: 1px solid #22990d; }
           .head_box .top_nav .dognav_list .dog_nav .doglist .pet-active {
             height: 52px;
             line-height: 52px;
@@ -745,6 +879,26 @@ header {
   transition: all 0.5s;
   transform: translate(-10px, 0); }
 
+.timeproleft {
+  width: 29px;
+  height: 64px;
+  background-position: -12px -76px;
+  position: absolute;
+  top: 122px;
+  left: -16px;
+  z-index: 100;
+  display: none; }
+
+.timeproright {
+  width: 29px;
+  height: 64px;
+  background-position: -45px -76px;
+  position: absolute;
+  top: 122px;
+  right: -5px;
+  z-index: 100;
+  display: none; }
+
 .renew {
   width: 1200px;
   margin: 0 auto;
@@ -829,173 +983,205 @@ header {
         display: inline-block;
         *display: inline;
         *zoom: 1; }
-    .renew .day-surpice .surprise-con {
-      margin-bottom: 20px;
-      width: 871px;
-      height: 458px;
-      border-left: 0;
-      border: 1px solid #e7e7e7;
-      float: right; }
-      .renew .day-surpice .surprise-con .anli {
-        margin-left: 15px; }
-        .renew .day-surpice .surprise-con .anli .time-proconli {
-          height: 364px; }
-          .renew .day-surpice .surprise-con .anli .time-proconli .time-procon {
-            overflow: hidden;
-            position: absolute;
-            top: 0;
-            left: 0; }
-            .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li {
-              width: 211px;
-              float: left; }
-              .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .cut1 {
-                font-weight: 500;
-                color: #fff;
-                font-size: 14px;
-                float: left;
-                margin-top: 5px;
-                margin-left: 12px;
-                box-sizing: border-box;
-                padding-top: 29px;
-                text-align: center;
-                height: 55px;
-                width: 55px;
-                background: url("https://static.epetbar.com/static_web/pc/dist/images/background/cut1.png") center no-repeat;
-                background-size: 100%; }
-              .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .fQLS {
-                font-weight: 500;
-                color: #fff;
-                font-size: 14px;
-                float: left;
-                margin-top: 5px;
-                margin-left: 12px;
-                box-sizing: border-box;
-                padding-top: 29px;
-                text-align: center;
-                height: 55px;
-                width: 55px;
-                background: url("https://static.epetbar.com/static_web/pc/dist/images/background/fqls.png") center no-repeat;
-                background-size: 100%; }
-              .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m {
-                margin: 18px 20px 20px; }
-                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .novip {
-                  height: 29px; }
-                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mt, .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mtop10 {
-                  margin-top: 10px; }
-                  .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mt .rush-buy, .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mtop10 .rush-buy {
-                    color: #fff;
-                    background: #cdcdcd;
-                    width: 120px;
-                    height: 30px;
-                    line-height: 30px;
-                    border-radius: 30px;
-                    cursor: pointer;
-                    display: inline-block; }
-                  .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mt .jijiang-buy, .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mtop10 .jijiang-buy {
-                    background: #4ace83; }
-                  .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mt .ft14, .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .mtop10 .ft14 {
-                    font-size: 14px; }
-                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .ftc {
-                  text-align: center; }
-                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .surprise-img {
-                  width: 155px;
-                  height: 154px; }
-                  .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .surprise-img img {
-                    width: 100%;
-                    height: 100%;
-                    display: block;
-                    -webkit-transition: all .5s ease;
-                    transition: all .5s ease;
-                    border: 1px solid #fff; }
-                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .sale-label-box {
-                  height: 24px;
-                  padding-top: 10px; }
-                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .surprise-m .goodsDes {
-                  height: 30px;
-                  margin-top: 28px;
-                  font-size: 12px;
-                  line-height: 1.2;
-                  overflow: hidden;
-                  text-align: left;
-                  text-overflow: ellipsis;
-                  display: -webkit-box;
-                  -webkit-box-orient: vertical;
-                  -webkit-line-clamp: 2; }
-              .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .cdd {
-                color: #dd2727; }
-              .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .mt5 {
-                margin-top: 5px; }
-                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .mt5 .ft20 {
-                  font-size: 20px; }
-                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .mt5 .ml5 {
-                  margin-left: 5px; }
-                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .mt5 .c999 {
-                  color: #999; }
-                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .mt5 .through {
-                  text-decoration: line-through; }
-                .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .mt5 .onlyhave {
-                  position: absolute;
-                  top: 50%;
-                  margin-top: -6px;
-                  right: 0;
-                  color: #b8b8b8; }
-              .renew .day-surpice .surprise-con .anli .time-proconli .time-procon li .ft12 {
-                font-size: 12px; }
-            .renew .day-surpice .surprise-con .anli .time-proconli .time-procon .large {
-              font-size: 16px;
-              color: #666; }
-        .renew .day-surpice .surprise-con .anli .overflow {
-          overflow: hidden; }
-      .renew .day-surpice .surprise-con .rela, .renew .day-surpice .surprise-con .rel {
-        position: relative; }
-        .renew .day-surpice .surprise-con .rela .anlimenu, .renew .day-surpice .surprise-con .rel .anlimenu {
-          height: 66px;
-          border-bottom: 1px dashed #e7e7e7;
-          margin: 0 20px; }
-          .renew .day-surpice .surprise-con .rela .anlimenu .time-menu, .renew .day-surpice .surprise-con .rel .anlimenu .time-menu {
-            height: 66px;
-            margin: 0 10px;
-            position: relative;
-            overflow: hidden; }
-            .renew .day-surpice .surprise-con .rela .anlimenu .time-menu .menubox, .renew .day-surpice .surprise-con .rel .anlimenu .time-menu .menubox {
-              overflow: hidden;
-              position: absolute;
-              top: 0;
-              left: 0;
-              margin-left: 25px; }
-              .renew .day-surpice .surprise-con .rela .anlimenu .time-menu .menubox li, .renew .day-surpice .surprise-con .rel .anlimenu .time-menu .menubox li {
-                width: 119px;
-                height: 45px;
-                color: #000;
-                padding: 18px 0 3px;
-                cursor: pointer;
-                float: left; }
-                .renew .day-surpice .surprise-con .rela .anlimenu .time-menu .menubox li .ftc, .renew .day-surpice .surprise-con .rel .anlimenu .time-menu .menubox li .ftc {
-                  display: inline-block;
-                  position: relative;
-                  text-align: center;
-                  font-size: 12px; }
-        .renew .day-surpice .surprise-con .rela .timeleft, .renew .day-surpice .surprise-con .rel .timeleft {
-          width: 20px;
-          height: 30px;
-          position: absolute;
-          top: 22px;
-          left: 20px;
-          z-index: 550;
-          display: inline-block;
-          background-position: -76px -16px; }
-        .renew .day-surpice .surprise-con .rela .index-ico, .renew .day-surpice .surprise-con .rel .index-ico {
-          background-image: url("https://static.epetbar.com/static_web/pc/dist/images/background/index-ico.png");
-          background-repeat: no-repeat; }
-        .renew .day-surpice .surprise-con .rela .timeright, .renew .day-surpice .surprise-con .rel .timeright {
-          width: 20px;
-          height: 30px;
-          background-position: -57px -16px;
-          position: absolute;
-          top: 22px;
-          right: 20px;
-          z-index: 30;
-          display: inline-block; }
+    .renew .day-surpice .goods {
+      float: left;
+      width: 868px;
+      border: 1px solid #e7e7e7; }
+    .renew .day-surpice .goods .goods-top {
+      width: 100%;
+      height: 65px;
+      line-height: 65px;
+      position: relative; }
+      .renew .day-surpice .goods .goods-top .swiper-container {
+        overflow: hidden;
+        width: 815px; }
+      .renew .day-surpice .goods .goods-top .swiper-wrapper {
+        width: 980px; }
+    .renew .day-surpice .top1 {
+      padding: 0 20px 0 35px;
+      width: 815px;
+      height: 65px;
+      line-height: 65px;
+      font-size: 10px;
+      text-align: center;
+      border-bottom: 1px dashed #999; }
+    .renew .day-surpice .swiper-button-next, .renew .day-surpice .swiper-container-rtl .swiper-button-prev {
+      right: 10px;
+      left: auto; }
+    .renew .day-surpice .swiper-button-next, .renew .day-surpice .swiper-button-prev {
+      position: absolute;
+      top: 50%;
+      width: 9px;
+      margin-top: -32px;
+      z-index: 10;
+      cursor: pointer;
+      background-size: 27px 44px;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .renew .day-surpice .swiper-button-next {
+      right: 61px; }
+    .renew .day-surpice .swiper-button-next.swiper-button-disabled, .renew .day-surpice .swiper-button-prev.swiper-button-disabled {
+      opacity: .35;
+      cursor: auto;
+      pointer-events: none; }
+    .renew .day-surpice .swiper-container .swiper-notification {
+      position: absolute;
+      left: 0;
+      top: 0;
+      pointer-events: none;
+      opacity: 0;
+      z-index: -1000; }
+    .renew .day-surpice .top-cons {
+      width: 100%;
+      height: 100%;
+      position: relative; }
+    .renew .day-surpice .top-cons .swiper-slide {
+      float: left;
+      width: 60px;
+      height: 65px; }
+    .renew .day-surpice .top-cons div p {
+      margin: 0 30px;
+      width: 50px;
+      height: 12px;
+      font-size: 10px;
+      line-height: 12px; }
+    .renew .day-surpice .top-cons div p:nth-of-type(1) {
+      margin-top: 20px;
+      color: #999; }
+    .renew .day-surpice .top-cons div p:nth-of-type(2) {
+      margin-top: 2px;
+      color: #999; }
+    .renew .day-surpice .top-cons div:hover p {
+      font-size: 12px;
+      font-weight: 700; }
+    .renew .day-surpice .top-cons div:hover p:nth-of-type(2) {
+      border-bottom: 2px solid #ed4044;
+      padding-bottom: 29px; }
+    .renew .day-surpice .top-cons .active1:hover p {
+      color: #ed4044; }
+    .renew .day-surpice .goods-bottom {
+      height: 392px;
+      width: 844px;
+      position: relative;
+      padding: 0 11px; }
+    .renew .day-surpice .goods-bottom-1 {
+      width: 844px;
+      height: 392px;
+      position: relative;
+      overflow: hidden; }
+    .renew .day-surpice .goods-bottom-cons {
+      width: 6752px;
+      height: 392px;
+      position: absolute;
+      left: 0;
+      top: 0; }
+    .renew .day-surpice .goods-bottom-cons li {
+      float: left;
+      height: 354px;
+      width: 211px;
+      position: relative; }
+    .renew .day-surpice .goods-bottom-cons li .pica {
+      margin: 18px 20px 20px;
+      display: block;
+      height: 156px;
+      position: relative;
+      top: 35px; }
+    .renew .day-surpice #left2 {
+      position: absolute;
+      left: 0;
+      top: 35%;
+      width: 30px;
+      height: 60px;
+      background: #ddd;
+      font-size: 20px;
+      color: #fff;
+      line-height: 60px;
+      text-align: center; }
+    .renew .day-surpice #right2 {
+      position: absolute;
+      right: 0;
+      top: 35%;
+      width: 30px;
+      height: 60px;
+      background: #ddd;
+      font-size: 20px;
+      color: #fff;
+      line-height: 60px;
+      text-align: center; }
+    .renew .day-surpice .goods-bottom-cons li p {
+      margin: 18px 20px 20px; }
+    .renew .day-surpice .goods-bottom-cons li p:nth-of-type(1) {
+      height: 30px;
+      width: 165px;
+      margin-top: 40px;
+      font-size: 12px; }
+    .renew .day-surpice .goods-bottom-cons li p:nth-of-type(1) a {
+      color: #444; }
+    .renew .day-surpice .stop {
+      position: absolute;
+      top: 95px;
+      left: 20px;
+      display: block; }
+    .renew .day-surpice .goods-bottom-cons li:hover .stop {
+      display: none;
+      transition: 1s; }
+    .renew .day-surpice .goods-bottom-cons li:hover .pica {
+      position: relative;
+      top: 31px;
+      transition: .5s;
+      z-index: 3; }
+    .renew .day-surpice .goods-bottom-cons li:hover p:nth-of-type(1) a {
+      color: #216ef7; }
+    .renew .day-surpice .goods-bottom-cons li p:nth-of-type(2) {
+      margin-top: 15px;
+      margin-bottom: 40px; }
+    .renew .day-surpice .goods-bottom-cons li p:nth-of-type(2) span {
+      display: inline-block;
+      font-size: 8px;
+      color: #e52645; }
+    .renew .day-surpice .goods-bottom-cons li p:nth-of-type(2) b {
+      display: inline-block;
+      font-size: 8px;
+      color: #ddd;
+      margin-left: 3px;
+      text-decoration: line-through; }
+    .renew .day-surpice .goods-bottom-cons li p:nth-of-type(2) span i {
+      display: inline-block;
+      font-size: 8px;
+      color: #e52645;
+      font-size: 16px; }
+    .renew .day-surpice .goods-bottom-cons li p:nth-of-type(2) em {
+      display: inline-block;
+      font-size: 8px;
+      color: #ddd;
+      margin-left: 43px; }
+    .renew .day-surpice .goods-bottom-cons li p:nth-of-type(3).ending {
+      width: 120px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 13px;
+      background: #ddd;
+      color: #fff;
+      font-size: 14px;
+      text-align: center; }
+    .renew .day-surpice .cut {
+      position: absolute;
+      left: 8px;
+      top: 5px;
+      z-index: 10; }
+    .renew .day-surpice .spends {
+      background: url(../images/fqls.png) no-repeat center;
+      position: absolute;
+      left: 8px;
+      top: 5px;
+      width: 56px;
+      height: 45px;
+      line-height: 55px;
+      color: #fff;
+      font-size: 14px;
+      padding-top: 10px;
+      text-align: center;
+      z-index: 10; }
   .renew .body2 {
     height: 579px;
     margin-top: 50px;

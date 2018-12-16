@@ -1,0 +1,182 @@
+@charset "UTF-8";
+.head1 {
+  margin: 0 auto;
+  width: 1200px;
+  height: 120px;
+  background: white;
+  padding: 30px 0; }
+
+.head1lt {
+  float: left; }
+
+.head1lt img {
+  float: left;
+  display: inline-block; }
+
+.head1lt img:nth-child(2) {
+  padding-top: 10px; }
+
+.head1rt {
+  padding-top: 20px;
+  float: right; }
+
+.head1rt a {
+  color: cornflowerblue;
+  font-size: 16px; }
+
+/*注册页*/
+#box {
+  width: 100%;
+  height: 586px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
+
+.body1 {
+  width: 1200px;
+  height: 546px; }
+
+.form1 > div {
+  width: 700px;
+  height: 50px;
+  margin-left: 300px;
+  margin-bottom: 10px; }
+
+.form1 div span {
+  width: 100px;
+  height: 50px;
+  text-align: right;
+  line-height: 50px;
+  font-size: 16px;
+  float: left; }
+
+#box .formhead {
+  margin-top: 40px; }
+
+.form1 input {
+  width: 400px;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  float: left;
+  text-indent: 1em; }
+
+#input2 {
+  width: 225px; }
+
+.yanzhengma1, .yanzhengma2 {
+  float: left;
+  margin-left: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px; }
+
+.yanzhengma1 {
+  width: 170px;
+  height: 50px; }
+
+.yanzhengma1 div {
+  height: 50px;
+  width: 84px;
+  float: left; }
+
+.yanzhengma1 div:nth-child(1) {
+  border-right: 1px solid #ddd; }
+
+#input3 {
+  width: 260px; }
+
+.yanzhengma2 {
+  width: 135px;
+  height: 50px;
+  border: 1px solid greenyellow; }
+
+#mmqiangdu {
+  height: 20px;
+  display: none; }
+
+#mmqiangdu ul {
+  margin-left: 100px; }
+
+#mmqiangdu li {
+  width: 80px;
+  height: 20px;
+  float: left;
+  background: #ddd;
+  margin-right: 4px;
+  text-align: center; }
+
+.form1 .xieyi {
+  height: 30px; }
+
+.xieyi a {
+  color: cornflowerblue; }
+
+#kuang {
+  width: auto;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 100px; }
+
+#btn {
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  background: deepskyblue;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 120px; }
+
+.em2 {
+  float: left;
+  width: 150px;
+  height: 50px;
+  background: lightgoldenrodyellow;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 50px; }
+
+.em1 {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  background: url(../images/ok_03.jpg) no-repeat center; }
+
+.em1 {
+  color: green; }
+
+.em2 {
+  color: red; }
+
+/*底部*/
+.foot {
+  width: 1228px;
+  height: 110px;
+  margin: 0 auto;
+  font-size: 12px; }
+
+.foot ul {
+  width: 250px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 50px; }
+
+.foot li {
+  height: 18px;
+  border-right: 1px solid #ddd;
+  padding: 0 5px;
+  float: left; }
+
+.foot ul li:last-child {
+  border: none; }
+
+.foot a {
+  color: #a6a6a6; }
+
+.foot a:hover {
+  color: cornflowerblue; }
+
+.foot p {
+  text-align: center;
+  color: #a6a6a6; }
